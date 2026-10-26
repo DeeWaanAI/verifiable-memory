@@ -1,0 +1,3 @@
+{"created_at":1793007257.8364859,"derived_from":["m_179300725783100002"],"id":"m_179300725783600004","note":"User's doctor is Dr. A.","note_kind":"summary","source_ref":["m_179300725783100002"],"status":"stale","superseded_by":null,"valid_from":1793007257.8364859}
+{"created_at":1793007257.83776,"derived_from":null,"id":"m_179300725783700005","note":null,"note_kind":"summary","source_ref":[],"status":"deleted","superseded_by":null,"valid_from":1793007257.83776}
+{"created_at":1793007257.838318,"derived_from":["m_179300725782700001"],"id":"m_179300725783800006","note":"The user's physician is Doctor A.","note_kind":"summary","source_ref":["m_179300725782700001"],"status":"active","superseded_by":null,"valid_from":1793007257.838318}

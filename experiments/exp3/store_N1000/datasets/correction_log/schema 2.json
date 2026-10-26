@@ -1,0 +1,21 @@
+{
+ "dataset": "correction_log",
+ "id_field": "id",
+ "fields": {
+  "id": "id",
+  "created_at": "timestamp",
+  "source_ref": "list<id>",
+  "valid_from": "timestamp",
+  "superseded_by": "id|null",
+  "status": "enum[active,corrected,deleted,stale]",
+  "target_id": "id",
+  "old_value": "any",
+  "new_value": "any",
+  "user_statement": "string",
+  "applied_at": "timestamp"
+ },
+ "derivations": [
+  "filter",
+  "count"
+ ]
+}

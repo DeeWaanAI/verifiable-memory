@@ -1,0 +1,10 @@
+{
+ "frozen": "2026-10-20",
+ "identified_openalex": 569,
+ "identified_arxiv": 179,
+ "total_identified": 748,
+ "after_dedup": 668,
+ "passed_screen": 482,
+ "included_verified": 37,
+ "note": "passed_screen from screen.py threshold>=4 output (screen.py prints TOTAL PASSED)"
+}

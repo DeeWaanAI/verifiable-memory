@@ -1,0 +1,76 @@
+{
+ "suite": "F1-F12",
+ "frozen": "2026-10-20",
+ "total": 13,
+ "passed": 13,
+ "failed": 0,
+ "tests": [
+  {
+   "name": "F1 write/read-back + provenance fields",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F2 schema validation (empty derived_from / source_ref rejected)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F3 hash-chain integrity + tamper detection",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F4 inspect view = exactly the active memory set",
+   "pass": [
+    "m_179303043404100010"
+   ],
+   "detail": ""
+  },
+  {
+   "name": "F5 correction: old leaves read path, successor active, bound record",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F6 transitive invalidation (closure re-flagged, unrelated untouched)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F7 correction chain: 3 versions, only newest active, history intact",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F8 stated>inferred precedence + consent gate",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F9 deletion single: absent from store+context, payload-free tombstone",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F10 cascade deletion: full closure absent + proof stored",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F11 selective memory loading into a new session context",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F12 binding-only access (direct writes rejected)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "F13 inspection view is a conformant dvr/1.0 spec (L2 validator)",
+   "pass": true,
+   "detail": ""
+  }
+ ]
+}

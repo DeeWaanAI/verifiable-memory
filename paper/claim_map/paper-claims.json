@@ -1,0 +1,175 @@
+{
+ "schema": "paper-claims-v1",
+ "paper": "paper/verifiable-memory-v1.4.tex",
+ "count": 21,
+ "mentions": [
+  {
+   "mention_id": "PM-001",
+   "claim_text": "review total identified",
+   "paper_value": "748",
+   "verbatim_quote": "748 records screened",
+   "dp_id": "DP-0055",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-002",
+   "claim_text": "review passed screen",
+   "paper_value": "482",
+   "verbatim_quote": "482 passing",
+   "dp_id": "DP-0057",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-003",
+   "claim_text": "review included",
+   "paper_value": "37",
+   "verbatim_quote": "37 verified",
+   "dp_id": "DP-0058",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-004",
+   "claim_text": "functional suite pass",
+   "paper_value": "13",
+   "verbatim_quote": "All thirteen pass",
+   "dp_id": "DP-0051",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-005",
+   "claim_text": "exp1 closure size",
+   "paper_value": "3",
+   "verbatim_quote": "(3/3 notes)",
+   "dp_id": "DP-0001",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-006",
+   "claim_text": "exp1 pct reflagged",
+   "paper_value": "100",
+   "verbatim_quote": "100\\% of the dependent closure",
+   "dp_id": "DP-0003",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-007",
+   "claim_text": "exp3 tokens N=50 full",
+   "paper_value": "481",
+   "verbatim_quote": "50   & 481",
+   "dp_id": "DP-0021",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-008",
+   "claim_text": "exp3 tokens N=200 full",
+   "paper_value": "1831",
+   "verbatim_quote": "200  & 1{,}831",
+   "dp_id": "DP-0027",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-009",
+   "claim_text": "exp3 tokens N=1000 full",
+   "paper_value": "9031",
+   "verbatim_quote": "1000 & 9{,}031",
+   "dp_id": "DP-0033",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-010",
+   "claim_text": "exp3 rag tokens",
+   "paper_value": "91",
+   "verbatim_quote": "481   & 91 & 9",
+   "dp_id": "DP-0022",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-011",
+   "claim_text": "exp3 selective N=50",
+   "paper_value": "9",
+   "verbatim_quote": "91 & 9 & 98.1",
+   "dp_id": "DP-0023",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-012",
+   "claim_text": "exp3 savings vs full N=50",
+   "paper_value": "98.1",
+   "verbatim_quote": "98.1\\%",
+   "dp_id": "DP-0024",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-013",
+   "claim_text": "exp3 savings vs full N=200",
+   "paper_value": "99.5",
+   "verbatim_quote": "99.5\\%",
+   "dp_id": "DP-0030",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-014",
+   "claim_text": "exp3 savings vs full N=1000",
+   "paper_value": "99.9",
+   "verbatim_quote": "99.9\\%",
+   "dp_id": "DP-0036",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-015",
+   "claim_text": "exp3 savings vs rag",
+   "paper_value": "90.1",
+   "verbatim_quote": "90.1\\%",
+   "dp_id": "DP-0025",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-016",
+   "claim_text": "exp3 rag accuracy",
+   "paper_value": "1.0",
+   "verbatim_quote": "all three arms score 1.0",
+   "dp_id": "DP-0004",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-017",
+   "claim_text": "abstract savings range",
+   "paper_value": "98.1--99.9",
+   "verbatim_quote": "98.1--99.9\\%",
+   "dp_id": "DP-0024",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-018",
+   "claim_text": "conclusion ratio vs full",
+   "paper_value": "53",
+   "verbatim_quote": "53--1003$\\times$",
+   "dp_id": "DP-0021",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-019",
+   "claim_text": "conclusion ratio vs rag",
+   "paper_value": "10",
+   "verbatim_quote": "10$\\times$ fewer than a naive lexical",
+   "dp_id": "DP-0022",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-020",
+   "claim_text": "L1 latency magnitude",
+   "paper_value": "volatile",
+   "verbatim_quote": "hundredths of a second at 10k records",
+   "dp_id": "DP-0040",
+   "link_status": "linked"
+  },
+  {
+   "mention_id": "PM-021",
+   "claim_text": "L7 chain depth",
+   "paper_value": "300",
+   "verbatim_quote": "300-deep",
+   "dp_id": "DP-0046",
+   "link_status": "linked"
+  }
+ ]
+}

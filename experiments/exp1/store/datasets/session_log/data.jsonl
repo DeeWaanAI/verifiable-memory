@@ -1,0 +1,2 @@
+{"content":"I live in Paris, I work remotely.","created_at":1793007257.711479,"id":"m_179300725771100001","model_id":"exp-agent","role":"user","session_id":"s1","source_ref":[],"status":"active","superseded_by":null,"tokens_in":9,"tokens_out":0,"turn_index":1,"valid_from":1793007257.7114801}
+{"content":"Noted — Paris, remote work.","created_at":1793007257.726193,"id":"m_179300725772600008","model_id":"exp-agent","role":"agent","session_id":"s1","source_ref":[],"status":"active","superseded_by":null,"tokens_in":0,"tokens_out":8,"turn_index":2,"valid_from":1793007257.726193}

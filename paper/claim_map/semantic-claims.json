@@ -1,0 +1,599 @@
+{
+ "schema": "semantic-claims-v2",
+ "paper": "paper/verifiable-memory-v1.4.tex",
+ "generated": "2026-10-26",
+ "sweep": "full draft read top to bottom (259 lines of .tex), risky-claim taxonomy applied; verdicts are evidence records \u2014 independent judgment belongs to the monitor",
+ "verdict_legend": "verified | verified-with-note | DISCREPANCY | unverifiable",
+ "claims": [
+  {
+   "id": "SC-01",
+   "section": "Abstract",
+   "paper_line": 17,
+   "full_quote": "Corrections invalidate 100\\% of dependent notes",
+   "what_it_means": "every note in the corrected record's derived_from closure re-flagged stale; wrong if any dependent stayed active or if 'dependent' were broader than the closure",
+   "source": [
+    {
+     "file": "experiments/exp1/result.json",
+     "location": "headline.pct_dependents_reflaged, headline.closure_fully_flagged",
+     "exact_values": "100.0, true (3/3)"
+    }
+   ],
+   "code": "experiments/spine.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-02",
+   "section": "Abstract",
+   "paper_line": 17,
+   "full_quote": "deletions pass exact-string absence scans on the read path (a paraphrase can still carry content --- measured and stated as a boundary)",
+   "what_it_means": "comparison of guarantee vs boundary; wrong if the scope words ('exact-string', 'on the read path') were dropped or if the paraphrase probe were absent",
+   "source": [
+    {
+     "file": "experiments/exp2/result.json",
+     "location": "headline.single_delete_absence_scan, headline.cascade_delete_absence_scan, headline.paraphrase_probe",
+     "exact_values": "PASS, PASS, probe{note_status_after_delete: active, scan: PASS}"
+    }
+   ],
+   "code": "experiments/spine.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-03",
+   "section": "Abstract",
+   "paper_line": 17,
+   "full_quote": "selective memory loading cuts prompt tokens by 98.1--99.9\\% relative to full-history prompting and by 90.1\\% relative to a naive lexical top-$k$ retrieval baseline",
+   "what_it_means": "comparison, both sides, two baselines; wrong if accuracy gates failed, if 'naive' framing hid a tuned retriever, or if percentages misrounded",
+   "source": [
+    {
+     "file": "experiments/exp3/result.json",
+     "location": "runs[0..2].savings_vs_full_pct / savings_vs_rag_pct, headline.rag_topk_accuracy, runs[0..2].accuracy",
+     "exact_values": "98.13/99.51/99.9 vs full; 90.11 vs RAG; rag accuracy 1.0; all arms' gates true"
+    }
+   ],
+   "code": "experiments/spine.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-04",
+   "section": "1 Introduction",
+   "paper_line": 23,
+   "full_quote": "Our systematic review of 37 verified works across these six literatures found no system in which sessions, preferences, and history are provenance-carrying records such that a user correction transitively invalidates dependent outputs and a deletion is provably absent from later prompts",
+   "what_it_means": "absence-of-prior-art claim; safe only because it is scoped to the review corpus; wrong if read as absolute",
+   "source": [
+    {
+     "file": "litreview/review.md",
+     "location": "section 4 (gap and novelty claim)",
+     "exact_values": "748/668/482/37 counts; per-theme gap bullets"
+    }
+   ],
+   "code": null,
+   "audit": "verified-with-note \u2014 scoped absence claim ('our review found no system'), the required hedge; must not be strengthened to 'no system exists'"
+  },
+  {
+   "id": "SC-05",
+   "section": "1 Introduction",
+   "paper_line": 25,
+   "full_quote": "the editing literature shows weight-space corrections do not propagate \\cite{ripple,mquake} and degrade at scale \\cite{editatscale}",
+   "what_it_means": "attribution: non-propagation and scale degradation are properties of weight-space editing; this licenses the records-not-weights stance; wrong if the cited papers measured something else",
+   "source": [
+    {
+     "file": "litreview/raw/included_verified.json",
+     "location": "cohen2024ripple, zhong2023mquake, gupta2024editatscale",
+     "exact_values": "all three resolved OK with matching titles"
+    }
+   ],
+   "code": "litreview/verify.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-06",
+   "section": "2 Related work",
+   "paper_line": 35,
+   "full_quote": "No work gives the user a correction protocol.",
+   "what_it_means": "absence claim within the personal-memory theme; hedged by review scope",
+   "source": [
+    {
+     "file": "litreview/review.md",
+     "location": "section 3.2 synthesis",
+     "exact_values": "'What it does not provide is a correction protocol'"
+    }
+   ],
+   "code": null,
+   "audit": "verified-with-note \u2014 review-scoped absence; hedge is the corpus"
+  },
+  {
+   "id": "SC-07",
+   "section": "2 Related work",
+   "paper_line": 39,
+   "full_quote": "No surveyed work pairs the two.",
+   "what_it_means": "absence claim: exact deletion + proof of absence from later behaviour unpired in unlearning literature",
+   "source": [
+    {
+     "file": "litreview/review.md",
+     "location": "section 3.4 synthesis",
+     "exact_values": "'No surveyed work combines exact deletion of memory records with an auditable proof of absence'"
+    }
+   ],
+   "code": null,
+   "audit": "verified-with-note \u2014 'surveyed' is the hedge"
+  },
+  {
+   "id": "SC-08",
+   "section": "2 Related work",
+   "paper_line": 43,
+   "full_quote": "retrieval beats long-context prompting on cost \\cite{ragvslc,lostmiddle,compressctx}",
+   "what_it_means": "literature comparison; direction (retrieval cheaper) must match the cited works",
+   "source": [
+    {
+     "file": "litreview/review.md",
+     "location": "section 3.6",
+     "exact_values": "'comprehensive study [33] compares retrieval vs long-context prompting and finds retrieval cheaper and competitive'"
+    }
+   ],
+   "code": null,
+   "audit": "verified"
+  },
+  {
+   "id": "SC-09",
+   "section": "3.1 Entities",
+   "paper_line": 81,
+   "full_quote": "user-stated always outranks inferred on conflict",
+   "what_it_means": "existence-of-analysis: the conflict resolver must implement and pass this; wrong if F8 fails or the code path differs",
+   "source": [
+    {
+     "file": "experiments/functional_results.json",
+     "location": "tests[name F8].pass",
+     "exact_values": "true"
+    },
+    {
+     "file": "prototype/memory.py",
+     "location": "resolve_conflicts rank lambda",
+     "exact_values": "user-stated tuple outranks inferred"
+    }
+   ],
+   "code": "prototype/test_functional.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-10",
+   "section": "3.2 Read-path invariant",
+   "paper_line": 84,
+   "full_quote": "never emits tombstoned payload, serialises the selected memory into prompt context deterministically (sorted by id, so absence checks are byte-level), and logs every emitted context",
+   "what_it_means": "behavioral guarantees; each maps to a test (F9/F10 tombstones, deterministic serialize_context, context_emit history entries)",
+   "source": [
+    {
+     "file": "experiments/functional_results.json",
+     "location": "F9, F10 pass",
+     "exact_values": "true, true"
+    },
+    {
+     "file": "experiments/exp2/store/datasets/session_log/history.jsonl",
+     "location": "context_emit entries",
+     "exact_values": "present"
+    }
+   ],
+   "code": "prototype/test_functional.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-11",
+   "section": "3.3 Correction protocol",
+   "paper_line": 87,
+   "full_quote": "then the \\texttt{derived\\_from} closure of the target is walked and every dependent note is flagged \\texttt{stale}. Corrected content leaves the read path immediately, before dependents are regenerated.",
+   "what_it_means": "protocol order claim; 'immediately' means before any regeneration step exists \u2014 the prototype has none, so the claim is structural",
+   "source": [
+    {
+     "file": "experiments/functional_results.json",
+     "location": "F5, F6, F7 pass",
+     "exact_values": "true"
+    },
+    {
+     "file": "experiments/exp1/result.json",
+     "location": "headline.old_value_absent_from_read_path",
+     "exact_values": "true"
+    }
+   ],
+   "code": "experiments/spine.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-12",
+   "section": "3.4 Deletion protocol",
+   "paper_line": 117,
+   "full_quote": "the experiment in Section~5.2 caught an earlier version in which \\texttt{single} left a derived note serving the deleted payload. The protocol was amended before freezing.",
+   "what_it_means": "existence-of-analysis: claims a real development episode, not a hypothetical",
+   "source": [
+    {
+     "file": "spec.md",
+     "location": "section 4.4 amendment note",
+     "exact_values": "'caught by experiment 2's absence scan during development'"
+    },
+    {
+     "file": "paper/DESIGN-DECISIONS.md",
+     "location": "D3",
+     "exact_values": "FAIL -> PASS transition documented"
+    }
+   ],
+   "code": null,
+   "audit": "verified-with-note \u2014 development episode, disclosed as such; not reproducible from current artifacts by design (pre-fix state)"
+  },
+  {
+   "id": "SC-13",
+   "section": "4 Implementation",
+   "paper_line": 120,
+   "full_quote": "the inspection view is emitted as a conformant \\texttt{dvr/1.0} view spec --- every rendered item is a node carrying a \\texttt{binding\\_ref} to a persisted Qafiya binding, never a literal value --- validated by Layer 2's own grammar validator (test F13)",
+   "what_it_means": "existence-of-analysis + conformance: F13 must run Layer 2's real specval.validate_view, including negatives",
+   "source": [
+    {
+     "file": "experiments/functional_results.json",
+     "location": "tests[name F13].pass",
+     "exact_values": "true"
+    },
+    {
+     "file": "prototype/test_functional.py",
+     "location": "F13 block",
+     "exact_values": "imports dvr.specval from 02-view-renderer; positive + 2 negative cases"
+    }
+   ],
+   "code": "prototype/test_functional.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-14",
+   "section": "5 Evaluation preamble",
+   "paper_line": 124,
+   "full_quote": "The script exits 0 on the artifacts shipped with this paper.",
+   "what_it_means": "existence-of-analysis: spine must actually exit 0 at ship time",
+   "source": [
+    {
+     "file": "experiments/spine.py",
+     "location": "run 2026-10-26",
+     "exact_values": "exit 0, 'SPINE OK \u2014 every headline number recomputed from frozen artifacts'"
+    }
+   ],
+   "code": "experiments/spine.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-15",
+   "section": "5.1 Functional",
+   "paper_line": 127,
+   "full_quote": "\\textbf{All thirteen pass.}",
+   "what_it_means": "count + result; wrong if any F-test fails or count drifts",
+   "source": [
+    {
+     "file": "experiments/functional_results.json",
+     "location": "total, passed, failed",
+     "exact_values": "13, 13, 0"
+    }
+   ],
+   "code": "prototype/test_functional.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-16",
+   "section": "5.3 Experiment 2",
+   "paper_line": 139,
+   "full_quote": "We also publish the leakage map: the payload persists in append-only history files and in the raw session turn.",
+   "what_it_means": "boundary disclosure: presence in named files, absence from read path \u2014 both directions must hold in the artifact",
+   "source": [
+    {
+     "file": "experiments/exp2/result.json",
+     "location": "headline.dr_A_leakage",
+     "exact_values": "preference_store/history=true, session_log/data.jsonl=true, prompt_context=false"
+    }
+   ],
+   "code": "experiments/spine.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-17",
+   "section": "5.3 Experiment 2",
+   "paper_line": 139,
+   "full_quote": "A deliberate paraphrase probe --- a note carrying the same content as a different string, with provenance pointing at the raw turn --- survives the deletion while the scan passes",
+   "what_it_means": "the boundary is demonstrated live, not asserted; wrong if the probe note were also invalidated (it must stay active for the claim to hold)",
+   "source": [
+    {
+     "file": "experiments/exp2/result.json",
+     "location": "headline.paraphrase_probe",
+     "exact_values": "note_status_after_delete=active, exact_string_scan_result=PASS"
+    }
+   ],
+   "code": "experiments/spine.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-18",
+   "section": "5.4 Experiment 3",
+   "paper_line": 150,
+   "full_quote": "all three arms score 1.0 at all $N$ in this frozen run, so the comparison is at matched answer capability",
+   "what_it_means": "existence + gate: every arm's accuracy flag true at every N; 'in this frozen run' is the correct scope",
+   "source": [
+    {
+     "file": "experiments/exp3/result.json",
+     "location": "runs[0..2].accuracy",
+     "exact_values": "all true at N=50, 200, 1000"
+    }
+   ],
+   "code": "experiments/spine.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-19",
+   "section": "5.4 Experiment 3",
+   "paper_line": 150,
+   "full_quote": "The RAG baseline is intentionally naive --- small, frozen, and declared --- not a tuned retriever.",
+   "what_it_means": "scope disclosure preventing overgeneralization of the 90.1% figure",
+   "source": [
+    {
+     "file": "experiments/exp3/result.json",
+     "location": "protocol",
+     "exact_values": "'the RAG arm is a naive lexical top-k baseline (small, frozen), not a tuned retriever'"
+    }
+   ],
+   "code": null,
+   "audit": "verified"
+  },
+  {
+   "id": "SC-20",
+   "section": "5.5 Limit tests",
+   "paper_line": 175,
+   "full_quote": "L7 initially measured on the order of a second to re-flag a 300-deep dependent chain --- above an interactive budget; the cause was per-flag full-file rewrites, fixed with a batched pass (tens of milliseconds).",
+   "what_it_means": "magnitude claims deliberately; decimals live in the artifact (D9); wrong if magnitudes misstated (before must be ~1s, after < 0.1s)",
+   "source": [
+    {
+     "file": "experiments/limit_results.json",
+     "location": "L7_invalidation_cost",
+     "exact_values": "reflag_seconds_before_fix=1.351, reflag_seconds=0.034 (frozen run)"
+    }
+   ],
+   "code": "prototype/test_limits.py",
+   "audit": "verified \u2014 magnitudes match frozen run; decimals intentionally not quoted (volatile)"
+  },
+  {
+   "id": "SC-21",
+   "section": "5.5 Limit tests",
+   "paper_line": 175,
+   "full_quote": "L8 confirms the uncatchable class: naive tampering is always caught; tampering \\emph{with} chain recomputation never is.",
+   "what_it_means": "both directions of the tamper taxonomy; wrong if either flag flipped (the substrate-adoption bug briefly flipped the second)",
+   "source": [
+    {
+     "file": "experiments/limit_results.json",
+     "location": "L8_tamper",
+     "exact_values": "naive_tamper_caught=true, recomputed_chain_caught=false"
+    }
+   ],
+   "code": "prototype/test_limits.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-22",
+   "section": "5.5 Table limits L1 row",
+   "paper_line": 183,
+   "full_quote": "Read-path latency: hundredths of a second at 10k records, under a second at 100k (the design brief's target scale).",
+   "what_it_means": "magnitude claim across the sweep; wrong if 10k exceeded 0.1s or 100k exceeded 1s in the frozen run; the brief promised 100k, the paper now reports it (audit item 5 closed)",
+   "source": [
+    {
+     "file": "experiments/limit_results.json",
+     "location": "L1_scale.measurements",
+     "exact_values": "10k: 0.032/0.045 s; 100k: 0.538/0.691 s"
+    }
+   ],
+   "code": "prototype/test_limits.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-23",
+   "section": "5.5 Table limits rows L2-L6, L8",
+   "paper_line": 184,
+   "full_quote": "L2 & Contradictory inferred memories are silently ranked, not detected. ... L8 & Naive tamper: always caught. Tamper + chain recompute: never caught (needs external anchoring).",
+   "what_it_means": "existence-of-analysis: each row's finding must exist in the frozen limit_results.json with matching verdicts",
+   "source": [
+    {
+     "file": "experiments/limit_results.json",
+     "location": "L2_contradictions, L3_implicit_staleness, L4_poisoning, L5_leakage, L6_ambiguous_correction, L8_tamper",
+     "exact_values": "findings present; L3 employer_still_active_after_silence=['Acme']; L5 proof_of_absence=PASS with leakage map true in history; L6 unbindable_corrections_rejected=1"
+    }
+   ],
+   "code": "prototype/test_limits.py",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-24",
+   "section": "6 Honesty boundary",
+   "paper_line": 204,
+   "full_quote": "Four limits, stated so that ``verifiable'' is not misread as ``omnipotent.'' (1) ... (5)",
+   "what_it_means": "INTERNAL INCONSISTENCY CAUGHT: the text says 'Four limits' but enumerates five \u2014 a numbering drift introduced when the exact-string limit was added in v1.4",
+   "source": [
+    {
+     "file": "paper/verifiable-memory-v1.4.tex",
+     "location": "line 204",
+     "exact_values": "'Four limits' vs five enumerated items"
+    }
+   ],
+   "code": null,
+   "audit": "DISCREPANCY \u2014 fixed in this draft pass; see discrepancy_log entry D-2026-10-26-1"
+  },
+  {
+   "id": "SC-25",
+   "section": "7 Discussion",
+   "paper_line": 207,
+   "full_quote": "a field-usability study of that view is deliberately future work --- after deployment, not claimed here",
+   "what_it_means": "scope discipline: no HCI/usability claim anywhere in the paper (audit item 7); the sentence disclaims rather than claims",
+   "source": [
+    {
+     "file": "paper/verifiable-memory-v1.4.tex",
+     "location": "full-text grep for usability claims",
+     "exact_values": "only occurrence is this disclaimer"
+    }
+   ],
+   "code": null,
+   "audit": "verified"
+  },
+  {
+   "id": "SC-26",
+   "section": "8 Conclusion",
+   "paper_line": 210,
+   "full_quote": "the whole system uses 53--1003$\\times$ fewer tokens than full-history prompting and 10$\\times$ fewer than a naive lexical retrieval baseline",
+   "what_it_means": "ratio restatement: recompute from both underlying values, never memory; range must span N=50..1000",
+   "source": [
+    {
+     "file": "experiments/exp3/result.json",
+     "location": "runs[0..2]",
+     "exact_values": "481/9=53.4, 1831/9=203.4, 9031/9=1003.4, 91/9=10.1"
+    }
+   ],
+   "code": "paper/claim_map/verify_two_way.py (derived_ratio_from)",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-27",
+   "section": "AI-usage disclosure",
+   "paper_line": 217,
+   "full_quote": "30 datapoints in this draft, each checked in both directions",
+   "what_it_means": "self-referential count; must equal the shipped map's entry count",
+   "source": [
+    {
+     "file": "paper/claim_map/datapoints.json",
+     "location": "datapoints array length",
+     "exact_values": "30"
+    }
+   ],
+   "code": "paper/claim_map/verify_two_way.py (DP-28)",
+   "audit": "verified"
+  },
+  {
+   "id": "SC-28",
+   "section": "AI-usage disclosure",
+   "paper_line": 219,
+   "full_quote": "(2) A limit-test figure hardcoded a timing (2.112\\,s) from an artifact that a later run had overwritten; the draft quoted it.",
+   "what_it_means": "historical audit-trail value; intentionally NOT linked to a current artifact \u2014 it documents the defect",
+   "source": [
+    {
+     "file": "paper/DESIGN-DECISIONS.md",
+     "location": "D6/D9",
+     "exact_values": "episode recorded"
+    }
+   ],
+   "code": null,
+   "audit": "verified-with-note \u2014 audit-trail section; historical value by design"
+  }
+ ],
+ "captions": [
+  {
+   "id": "CAP-fig1",
+   "paper_line": 77,
+   "covered_by": "SC-10",
+   "note": "'the read path emits only active records and logs every emitted context' \u2014 same evidence as SC-10"
+  },
+  {
+   "id": "CAP-fig2",
+   "paper_line": 112,
+   "covered_by": "SC-01",
+   "note": "'verbatim statuses from the frozen store' \u2014 exp1 store records match the TikZ nodes (corrected/active/stale x3/unrelated active); '(ids elided)' wording fixed in v1.1"
+  },
+  {
+   "id": "CAP-fig3",
+   "paper_line": 155,
+   "covered_by": "SC-03",
+   "note": "'All arms pass the accuracy gate' + three-arm series \u2014 regenerated from exp3 v2 result.json by make_figures.py"
+  },
+  {
+   "id": "CAP-tab-cost",
+   "paper_line": 161,
+   "covered_by": "SC-03",
+   "note": "all six numeric columns pinned by DP-11..DP-19"
+  },
+  {
+   "id": "CAP-fig4",
+   "paper_line": 198,
+   "covered_by": "SC-20",
+   "note": "bar values read from frozen limit_results.json; L1 panel numeric-sorted and log-scaled after the 100k addition"
+  },
+  {
+   "id": "CAP-tab-limits",
+   "paper_line": 179,
+   "covered_by": "SC-23",
+   "note": "eight rows trace to limit_results.json findings"
+  }
+ ],
+ "discrepancy_log": [
+  {
+   "id": "D-2026-10-19-1",
+   "class": "existence gap (caught pre-freeze)",
+   "finding": "exp2 single-scope deletion left a derived note serving the deleted payload; absence scan FAILED",
+   "fix": "protocol amended: deletion always transitively invalidates dependents (spec 4.4)",
+   "status": "fixed, frozen, disclosed in paper section 3.4"
+  },
+  {
+   "id": "D-2026-10-20-1",
+   "class": "stale value / paper-only number",
+   "finding": "L7 timing 2.112s hardcoded in make_figures.py and quoted in v1.0; source artifact had been overwritten",
+   "fix": "both timings persisted in limit_results.json; figure and draft read from frozen file",
+   "status": "fixed in v1.1"
+  },
+  {
+   "id": "D-2026-10-20-2",
+   "class": "rounding drift",
+   "finding": "L1 range 0.03--0.04s vs re-measured max 0.045s",
+   "fix": "range corrected",
+   "status": "fixed in v1.1"
+  },
+  {
+   "id": "D-2026-10-20-3",
+   "class": "boundary overreach",
+   "finding": "'verbatim from the frozen store' with elided ids",
+   "fix": "'(ids elided)' wording",
+   "status": "fixed in v1.1"
+  },
+  {
+   "id": "D-2026-10-20-4",
+   "class": "ratio cherry-pick",
+   "finding": "'a fiftieth of the tokens' quoted only the N=50 cell",
+   "fix": "range 50--1000x stated (later re-scoped in v1.4 with the RAG arm)",
+   "status": "fixed in v1.1"
+  },
+  {
+   "id": "D-2026-10-20-5",
+   "class": "stale value",
+   "finding": "'330 lines' vs actual 347",
+   "fix": "count updated (now 409 after dvr work, verified by DP-27)",
+   "status": "fixed in v1.1, re-verified v1.4"
+  },
+  {
+   "id": "D-2026-10-20-6",
+   "class": "substrate integration bug",
+   "finding": "Qafiya v1.3 chain adoption: append hashed prev_hash into the body; L8 attacker used wrong semantics (briefly made the uncatchable class 'catchable' for the wrong reason)",
+   "fix": "body excludes prev_hash/entry_hash; attacker uses substrate semantics",
+   "status": "fixed in v1.3"
+  },
+  {
+   "id": "D-2026-10-26-1",
+   "class": "internal inconsistency (numbering drift)",
+   "finding": "section 6 says 'Four limits' but enumerates five after the exact-string limit was added in v1.4",
+   "fix": "'Four limits' -> 'Five limits'",
+   "status": "fixed in this pass (SC-24)"
+  },
+  {
+   "id": "D-2026-10-26-2",
+   "class": "stale self-reference",
+   "finding": "disclosure section quoted '43 datapoints, 18 paper mentions' from the pre-rebuild map",
+   "fix": "reworded to '30 datapoints in this draft' and pinned by DP-28",
+   "status": "fixed in this pass"
+  },
+  {
+   "id": "D-2026-10-26-3",
+   "class": "volatile measurement quoted",
+   "finding": "v1.3 quoted frozen-run timing decimals (1.278/0.038) which a deliberate re-freeze changed (1.351/0.034)",
+   "fix": "decimals removed from paper text entirely; magnitudes only; exact values live in limit_results.json (D9)",
+   "status": "fixed in v1.4"
+  },
+  {
+   "id": "D-2026-10-26-4",
+   "class": "typesetting defect (latent compile error)",
+   "finding": "cost table declared {rrrr} (4 columns) but the v1.4 RAG-baseline revision made rows 6-column; pdflatex emitted Extra-alignment-tab errors and my earlier error grep pattern missed this class, so v1.4 initially shipped with a broken table",
+   "fix": "column spec corrected to {rrrrrr}; compile now exits 0 with zero error lines; lesson logged: compile checks must assert on the log, not a filtered pattern",
+   "status": "fixed in v1.4 (this pass)"
+  }
+ ]
+}

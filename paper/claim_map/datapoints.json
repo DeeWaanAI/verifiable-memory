@@ -1,0 +1,371 @@
+{
+ "schema": "datapoints-v2",
+ "paper": "paper/verifiable-memory-v1.4.tex",
+ "generated": "2026-10-26",
+ "note": "every headline number in abstract/results/discussion/conclusion; sources are frozen raw artifacts only",
+ "datapoints": [
+  {
+   "id": "DP-01",
+   "claim": "review corpus size",
+   "marker": "748 records screened",
+   "source": "litreview/counts.json",
+   "path": [
+    "total_identified"
+   ],
+   "expect": 748
+  },
+  {
+   "id": "DP-02",
+   "claim": "review passed screen",
+   "marker": "482 passing",
+   "source": "litreview/counts.json",
+   "path": [
+    "passed_screen"
+   ],
+   "expect": 482
+  },
+  {
+   "id": "DP-03",
+   "claim": "review included works",
+   "marker": "37 verified and synthesised",
+   "source": "litreview/counts.json",
+   "path": [
+    "included_verified"
+   ],
+   "expect": 37
+  },
+  {
+   "id": "DP-04",
+   "claim": "functional suite size",
+   "marker": "thirteen functional tests",
+   "source": "experiments/functional_results.json",
+   "path": [
+    "total"
+   ],
+   "expect": 13
+  },
+  {
+   "id": "DP-05",
+   "claim": "functional suite result",
+   "marker": "All thirteen pass",
+   "source": "experiments/functional_results.json",
+   "path": [
+    "passed"
+   ],
+   "expect": 13
+  },
+  {
+   "id": "DP-06",
+   "claim": "limit suite size",
+   "marker": "eight limit tests",
+   "source": "experiments/limit_results.json",
+   "path": [],
+   "expect": {
+    "len_of": 8
+   }
+  },
+  {
+   "id": "DP-07",
+   "claim": "exp1 dependent closure size",
+   "marker": "(3/3 notes)",
+   "source": "experiments/exp1/result.json",
+   "path": [
+    "headline",
+    "closure_size"
+   ],
+   "expect": 3
+  },
+  {
+   "id": "DP-08",
+   "claim": "exp1 percent reflagged",
+   "marker": "100\\% of the dependent closure",
+   "source": "experiments/exp1/result.json",
+   "path": [
+    "headline",
+    "pct_dependents_reflaged"
+   ],
+   "expect": 100.0
+  },
+  {
+   "id": "DP-09",
+   "claim": "exp2 single-delete scan",
+   "marker": "Both exact-string absence scans \\textbf{PASS}",
+   "source": "experiments/exp2/result.json",
+   "path": [
+    "headline",
+    "single_delete_absence_scan"
+   ],
+   "expect": "PASS"
+  },
+  {
+   "id": "DP-10",
+   "claim": "exp2 cascade-delete scan",
+   "marker": "Both exact-string absence scans \\textbf{PASS}",
+   "source": "experiments/exp2/result.json",
+   "path": [
+    "headline",
+    "cascade_delete_absence_scan"
+   ],
+   "expect": "PASS"
+  },
+  {
+   "id": "DP-11",
+   "claim": "exp3 full tokens N=50",
+   "marker": "50   & 481",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "0",
+    "full_tokens"
+   ],
+   "expect": 481
+  },
+  {
+   "id": "DP-12",
+   "claim": "exp3 full tokens N=200",
+   "marker": "200  & 1{,}831",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "1",
+    "full_tokens"
+   ],
+   "expect": 1831
+  },
+  {
+   "id": "DP-13",
+   "claim": "exp3 full tokens N=1000",
+   "marker": "1000 & 9{,}031",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "2",
+    "full_tokens"
+   ],
+   "expect": 9031
+  },
+  {
+   "id": "DP-14",
+   "claim": "exp3 RAG tokens",
+   "marker": "481   & 91 & 9",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "0",
+    "rag_topk_tokens"
+   ],
+   "expect": 91
+  },
+  {
+   "id": "DP-15",
+   "claim": "exp3 selective tokens",
+   "marker": "91 & 9 & 98.1",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "0",
+    "selective_tokens"
+   ],
+   "expect": 9
+  },
+  {
+   "id": "DP-16",
+   "claim": "exp3 savings vs full N=50",
+   "marker": "98.1\\%",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "0",
+    "savings_vs_full_pct"
+   ],
+   "expect": 98.1
+  },
+  {
+   "id": "DP-17",
+   "claim": "exp3 savings vs full N=200",
+   "marker": "99.5\\%",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "1",
+    "savings_vs_full_pct"
+   ],
+   "expect": 99.5
+  },
+  {
+   "id": "DP-18",
+   "claim": "exp3 savings vs full N=1000",
+   "marker": "99.9\\%",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "2",
+    "savings_vs_full_pct"
+   ],
+   "expect": 99.9
+  },
+  {
+   "id": "DP-19",
+   "claim": "exp3 savings vs RAG",
+   "marker": "90.1\\%",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "0",
+    "savings_vs_rag_pct"
+   ],
+   "expect": 90.1
+  },
+  {
+   "id": "DP-20",
+   "claim": "exp3 RAG accuracy",
+   "marker": "all three arms score 1.0",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "headline",
+    "rag_topk_accuracy"
+   ],
+   "expect": 1.0
+  },
+  {
+   "id": "DP-21",
+   "claim": "conclusion ratio vs full-history",
+   "marker": "53--1003$\\times$",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "0",
+    "full_tokens"
+   ],
+   "derived_ratio_from": [
+    "runs",
+    "0",
+    "selective_tokens"
+   ],
+   "expect": 53
+  },
+  {
+   "id": "DP-22",
+   "claim": "conclusion ratio vs RAG",
+   "marker": "10$\\times$ fewer than a naive lexical",
+   "source": "experiments/exp3/result.json",
+   "path": [
+    "runs",
+    "0",
+    "rag_topk_tokens"
+   ],
+   "derived_ratio_from": [
+    "runs",
+    "0",
+    "selective_tokens"
+   ],
+   "expect": 10
+  },
+  {
+   "id": "DP-23",
+   "claim": "L7 chain depth",
+   "marker": "300-deep dependent chain",
+   "source": "experiments/limit_results.json",
+   "path": [
+    "L7_invalidation_cost",
+    "chain_depth"
+   ],
+   "expect": 300
+  },
+  {
+   "id": "DP-24",
+   "claim": "L7 re-flag magnitude before fix (~1s)",
+   "marker": "on the order of a second",
+   "source": "experiments/limit_results.json",
+   "path": [
+    "L7_invalidation_cost",
+    "reflag_seconds_before_fix"
+   ],
+   "expect": {
+    "range": [
+     0.5,
+     10.0
+    ]
+   }
+  },
+  {
+   "id": "DP-25",
+   "claim": "L7 re-flag magnitude after fix (tens of ms)",
+   "marker": "tens of milliseconds",
+   "source": "experiments/limit_results.json",
+   "path": [
+    "L7_invalidation_cost",
+    "reflag_seconds"
+   ],
+   "expect": {
+    "range": [
+     0.005,
+     0.099
+    ]
+   }
+  },
+  {
+   "id": "DP-26",
+   "claim": "L1 latency magnitude at 100k (under a second)",
+   "marker": "under a second at 100k",
+   "source": "experiments/limit_results.json",
+   "path": [
+    "L1_scale",
+    "measurements",
+    "100000",
+    "serialize_context_s"
+   ],
+   "expect": {
+    "range": [
+     0.05,
+     0.999
+    ]
+   }
+  },
+  {
+   "id": "DP-27",
+   "claim": "prototype size",
+   "marker": "409 lines of dependency-free Python",
+   "source": "prototype/memory.py",
+   "path": [],
+   "expect": {
+    "line_count": true
+   },
+   "expect_value": 409
+  },
+  {
+   "id": "DP-28",
+   "claim": "claim-map size (self-reference, disclosure section)",
+   "marker": "30 datapoints in this draft",
+   "source": "paper/claim_map/datapoints.json",
+   "path": [
+    "datapoints"
+   ],
+   "expect": {
+    "len_of": 30
+   }
+  },
+  {
+   "id": "DP-29",
+   "claim": "L8 naive tamper caught",
+   "marker": "naive tampering is always caught",
+   "source": "experiments/limit_results.json",
+   "path": [
+    "L8_tamper",
+    "naive_tamper_caught"
+   ],
+   "expect": 1
+  },
+  {
+   "id": "DP-30",
+   "claim": "L8 recomputed chain uncatchable",
+   "marker": "tampering \\emph{with} chain recomputation never is",
+   "source": "experiments/limit_results.json",
+   "path": [
+    "L8_tamper",
+    "recomputed_chain_caught"
+   ],
+   "expect": 0
+  }
+ ]
+}

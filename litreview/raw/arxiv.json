@@ -1,0 +1,3357 @@
+[
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2601.01885v3",
+  "cited_by": null,
+  "abstract": "Large language model (LLM) agents face fundamental limitations in long-horizon reasoning due to finite context windows, making effective memory management critical. Existing methods typically handle long-term memory (LTM) and short-term memory (STM) as separate components, relying on heuristics or auxiliary controllers, which limits adaptability and end-to-end optimization. In this paper, we propose Agentic Memory (AgeMem), a unified framework that integrates LTM and STM management directly into the agent's policy. AgeMem exposes memory operations as tool-based actions, enabling the LLM agent ",
+  "authors": [
+   "Yi Yu",
+   "Liuyi Yao",
+   "Yuexiang Xie",
+   "Qingquan Tan",
+   "Jiaqi Feng",
+   "Yaliang Li"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "MemInsight: Autonomous Memory Augmentation for LLM Agents",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2503.21760v2",
+  "cited_by": null,
+  "abstract": "Large language model (LLM) agents have evolved to intelligently process information, make decisions, and interact with users or tools. A key capability is the integration of long-term memory capabilities, enabling these agents to draw upon historical interactions and knowledge. However, the growing memory size and need for semantic structuring pose significant challenges. In this work, we propose an autonomous memory augmentation approach, MemInsight, to enhance semantic data representation and retrieval mechanisms. By leveraging autonomous augmentation to historical interactions, LLM agents a",
+  "authors": [
+   "Rana Salama",
+   "Jason Cai",
+   "Michelle Yuan",
+   "Anna Currey",
+   "Monica Sunkara",
+   "Yi Zhang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.15008v1",
+  "cited_by": null,
+  "abstract": "Memory is becoming core infrastructure for long-horizon LLM agents, yet existing evaluations offer limited guidance on which memory substrate, namely the underlying medium in which memory is represented and stored, should be used under different operating regimes. We present a controlled harness evaluation of memory substrates for memory-augmented agents, covering dense and sparse indices, text records, structural stores, hierarchical stores, refinement-based memories, parametric updates, and activation-compatible context mechanisms. Across three backbone models and four benchmark suites spann",
+  "authors": [
+   "Wei-Chieh Huang",
+   "Weizhi Zhang",
+   "Yuchen Wu",
+   "Yankai Chen",
+   "Eric Hanchen Jiang",
+   "Wooseong Yang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "When Personalization Legitimizes Risks: Uncovering Safety Vulnerabilities in Personalized Dialogue Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2601.17887v2",
+  "cited_by": null,
+  "abstract": "Long-term memory enables large language model (LLM) agents to support personalized and sustained interactions. However, most work on personalized agents prioritizes utility and user experience, treating memory as a neutral component and largely overlooking its safety implications. In this paper, we reveal intent legitimation, a previously underexplored safety failure in personalized agents, where benign personal memories bias intent inference and cause models to legitimize inherently harmful queries. To study this phenomenon, we introduce PS-Bench, a benchmark designed to identify and quantify",
+  "authors": [
+   "Jiahe Guo",
+   "Xiangran Guo",
+   "Yulin Hu",
+   "Zimo Long",
+   "Xingyu Sui",
+   "Xuda Zhi"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "ElasticMem: Latent Memory as a Learnable Resource for LLM Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.30690v2",
+  "cited_by": null,
+  "abstract": "Long-term memory is essential for LLM agents to reason coherently across extended interactions, personalize responses, and reuse past experience. However, existing memory-augmented methods typically treat memory as a fixed resource: text-space approaches concatenate retrieved memories into the context window, causing substantial token overhead and sensitivity to noisy evidence, while latent-space approaches reduce textual cost but still rely on rigid retrieval or fixed-capacity memory interfaces. This creates a mismatch between query-dependent memory utility and fixed memory allocation. We pro",
+  "authors": [
+   "Tao Feng",
+   "Chongrui Ye",
+   "Fangxu Yu",
+   "Tianyang Luo",
+   "Jingjun Xu",
+   "Xueqiang Xu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Learning User-Aware Recall: Personalized Retrieval in Long-Term Conversational Memory",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2607.00017v2",
+  "cited_by": null,
+  "abstract": "Long-term conversational agents are expected to remember past interactions, but memory is useful only when the right evidence is recalled for the right user. Existing memory-augmented LLM agents have made progress in building compact memory banks, yet retrieval is still often driven by query-centered similarity or fixed ranking rules, leaving user-conditioned relevance underexplored. To address this gap, we propose Profile-guided Personalized Retrieval Optimization (PPRO), a retrieval-centric framework that makes memory retrieval both user-aware and optimizable. PPRO builds episodic and semant",
+  "authors": [
+   "ZhiShu Jiang",
+   "Haibo Liu",
+   "Xin Shen",
+   "Guanqiang QI",
+   "Chenxi Miao",
+   "Weikang Li"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Memory Poisoning Attack and Defense on Memory Based LLM-Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2601.05504v2",
+  "cited_by": null,
+  "abstract": "Large language model agents equipped with persistent memory are vulnerable to memory poisoning attacks, where adversaries inject malicious instructions through query only interactions that corrupt the agents long term memory and influence future responses. Recent work demonstrated that the MINJA (Memory Injection Attack) achieves over 95 % injection success rate and 70 % attack success rate under idealized conditions. However, the robustness of these attacks in realistic deployments and effective defensive mechanisms remain understudied. This work addresses these gaps through systematic empiri",
+  "authors": [
+   "Balachandra Devarangadi Sunil",
+   "Isheeta Sinha",
+   "Piyush Maheshwari",
+   "Shantanu Todmal",
+   "Shreyan Mallik",
+   "Shuchi Mishra"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "GenMem: Generative Symbolic Memory for Self-Evolving Harness",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2609.34633v1",
+  "cited_by": null,
+  "abstract": "Long-term memory supports the self-evolution of LLM agents by retaining experience and skills across tasks and enabling their retrieval, reuse, and revision in subsequent long-horizon decision-making. Yet existing memory management approaches remain limited to discriminative retrieval and to address the sparse, hierarchical, and highly redundant structure of reusable experience: only a small, task-dependent subset of trajectories and memories warrants retention, retrieval, or revision. Learning these operations is further complicated by sparse, delayed, and indirect task-level feedback, with w",
+  "authors": [
+   "Xinke Jiang",
+   "Tao Feng",
+   "Weixuan Xu",
+   "Zhixin Zhang",
+   "Zhibang Yang",
+   "Wentao Zhang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2607.24097v1",
+  "cited_by": null,
+  "abstract": "Memory-augmented LLM agents typically answer queries by retrieving relevant memories and feeding them directly to an answer model. This retrieval-as-evidence paradigm assumes retrieved memories are already suitable for reasoning, leaving the answer model to resolve redundancy, conflicts, and weak relevance while incurring substantial context overhead in long-term memory tasks. We propose MemChain, a trainable post-retrieval memory policy that transforms retrieved candidates into answer-facing active memory, represented as a compact and grounded evidence context. Given a user query and retrieve",
+  "authors": [
+   "Yiwen Ma",
+   "Songjun Tu",
+   "Qichao Zhang",
+   "Dong Li",
+   "Linjing Li",
+   "Dongbin Zhao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Multi-Paradigm Agent Interaction in Practice:A Systematic Analysis of Generator-Evaluator, ReAct Loop,and Adversarial Evaluation in the buddyMe Framework",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.16821v1",
+  "cited_by": null,
+  "abstract": "The rapid evolution of Large Language Model (LLM) agents has produced diverse interaction paradigms, yet few production systems integrate multiple paradigms within a unified architecture. This paper presents a systematic analysis of three principal agent interaction paradigms, including Multi-Agent Orchestration (Generator-Evaluator), ReAct Tool-Use Loops, and Memory-Augmented Interaction, as implemented in buddyMe, an open-source multi-model agent programming framework. We formalize a five-stage processing pipeline: Requirement Pre-Review -&gt; Task Decomposition -&gt; ReAct Execution -&gt; R",
+  "authors": [
+   "Xiaohua Wang",
+   "Chao Han",
+   "Kai Yu",
+   "XiaoLiang Xu",
+   "Liang Wang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2603.02473v2",
+  "cited_by": null,
+  "abstract": "Memory-augmented LLM agents store and retrieve information from prior interactions, yet the relative importance of how memories are written versus how they are retrieved remains unclear. We introduce a diagnostic framework that analyzes how performance differences manifest across write strategies, retrieval methods, and memory utilization behavior, and apply it to a 3x3 study crossing three write strategies (raw chunks, Mem0-style fact extraction, MemGPT-style summarization) with three retrieval methods (cosine, BM25, hybrid reranking). On LoCoMo, retrieval method is the dominant factor: avera",
+  "authors": [
+   "Boqin Yuan",
+   "Yue Su",
+   "Kun Yao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "CALMem : Application-Layer Dual Memory for Conversational AI",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.20724v1",
+  "cited_by": null,
+  "abstract": "Large language models (LLMs) operate within fixed context windows that fundamentally limit conversational continuity. When context fills, compaction discards history irreversibly; when sessions end, all memory resets to zero. Existing solutions-larger context windows, retrieval-augmented generation for knowledge bases, and memory-augmented architectures such as MemGPT-either require model modification, impose provider lock-in, or do not address the compaction continuity problem. We present CALMem (Conversational Application-Layer Memory), an application-layer dual memory architecture that give",
+  "authors": [
+   "Rajendra Narayan Jena",
+   "Rajan Padmanabhan",
+   "Sankar Arumugam"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "MemGPT: Towards LLMs as Operating Systems",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2310.08560v2",
+  "cited_by": null,
+  "abstract": "Large language models (LLMs) have revolutionized AI, but are constrained by limited context windows, hindering their utility in tasks like extended conversations and document analysis. To enable using context beyond limited context windows, we propose virtual context management, a technique drawing inspiration from hierarchical memory systems in traditional operating systems that provide the appearance of large memory resources through data movement between fast and slow memory. Using this technique, we introduce MemGPT (Memory-GPT), a system that intelligently manages different memory tiers i",
+  "authors": [
+   "Charles Packer",
+   "Sarah Wooders",
+   "Kevin Lin",
+   "Vivian Fang",
+   "Shishir G. Patil",
+   "Ion Stoica"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "MemWM: Memory-Augmented Text-Based World Model",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.07107v2",
+  "cited_by": null,
+  "abstract": "World models are increasingly used to support planning in agents by predicting how environment states evolve in response to agent actions. Yet fluent next-state predictions can still omit task-critical facts, corrupt product attributes, or apply incorrect transition rules. To address such systematic prediction errors, we introduce MemWM, a memory-augmented text-based world model. MemWM uses world memory, a curated memory bank of transition rules, state caches, and hard-to-predict facts, to condition next-state imagination. We evaluate factual state preservation with Structured State Fidelity (",
+  "authors": [
+   "Yujun Wang",
+   "Tao Zhang",
+   "Jinhe Bi",
+   " Aniri",
+   "Wenxuan Ye",
+   "Boliang Liu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Memory Augmented Self-Play",
+  "year": 2018,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "1805.11016v2",
+  "cited_by": null,
+  "abstract": "Self-play is an unsupervised training procedure which enables the reinforcement learning agents to explore the environment without requiring any external rewards. We augment the self-play setting by providing an external memory where the agent can store experience from the previous tasks. This enables the agent to come up with more diverse self-play tasks resulting in faster exploration of the environment. The agent pretrained in the memory augmented self-play setting easily outperforms the agent pretrained in no-memory self-play setting.",
+  "authors": [
+   "Shagun Sodhani",
+   "Vardaan Pahuja"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Learning How to Remember: Memory Modality Selection for GUI Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2610.17928v1",
+  "cited_by": null,
+  "abstract": "Recent advances in vision-language models (VLMs) have substantially improved the capabilities of GUI agents, while memory augmentation has emerged as a promising approach for reusing knowledge from past interactions. However, existing memory augmented GUI agents typically adopt a fixed representation strategy, providing retrieved experience as a static modality. It remains unclear whether a single memory modality is consistently optimal, or how modality preference changes across interaction steps. In this work, we conduct a systematic study of memory modality in VLM based GUI agents. Across GU",
+  "authors": [
+   "Taeyun Roh",
+   "Suhyeong Park",
+   "Gijin Kim",
+   "Wonjune Jang",
+   "Jaewoo Kang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Encode-Store-Retrieve: Augmenting Human Memory through Language-Encoded Egocentric Perception",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2308.05822v3",
+  "cited_by": null,
+  "abstract": "We depend on our own memory to encode, store, and retrieve our experiences. However, memory lapses can occur. One promising avenue for achieving memory augmentation is through the use of augmented reality head-mounted displays to capture and preserve egocentric videos, a practice commonly referred to as lifelogging. However, a significant challenge arises from the sheer volume of video data generated through lifelogging, as the current technology lacks the capability to encode and store such large amounts of data efficiently. Further, retrieving specific information from extensive video archiv",
+  "authors": [
+   "Junxiao Shen",
+   "John Dudley",
+   "Per Ola Kristensson"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2603.15658v1",
+  "cited_by": null,
+  "abstract": "Memory-augmented agents maintain multiple specialized stores, yet most systems retrieve from all stores for every query, increasing cost and introducing irrelevant context. We formulate memory retrieval as a store-routing problem and evaluate it using coverage, exact match, and token efficiency metrics. On downstream question answering, an oracle router achieves higher accuracy while using substantially fewer context tokens compared to uniform retrieval, demonstrating that selective retrieval improves both efficiency and performance. Our results show that routing decisions are a first-class co",
+  "authors": [
+   "Madhava Gaikwad"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.21768v1",
+  "cited_by": null,
+  "abstract": "Memory-augmented LLM agents enable interactions that extend beyond finite context windows by storing, updating, and reusing information across sessions. However, training such agents with reinforcement learning in multi-session environments is challenging because memory turns the agent's past actions into part of its future environment. Once different rollouts write, update, or delete different memories, they no longer share the same intermediate memory state, making trajectory-level comparisons fundamentally unfair. This violates a key assumption behind group-relative methods such as GRPO, wh",
+  "authors": [
+   "Sikuan Yan",
+   "Ahmed Bahloul",
+   "Ercong Nie",
+   "Susanna Schwarzmann",
+   "Riccardo Trivisonno",
+   "Volker Tresp"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "MemHarness: Memory Is Reconstructed, Not Replayed",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2607.28272v1",
+  "cited_by": null,
+  "abstract": "Retrieving past experiences has become a common strategy to enhance large language model agents. However, most existing memory-augmented agents treat retrieved experiences as static records to be replayed verbatim, injecting them into the context regardless of whether they align with the agent's current situation. This ``replay'' paradigm ignores the gap between the abstract, general nature of stored experience and the concrete, ever-changing states encountered at decision time, frequently causing negative transfer. In contrast, humans rarely recall past experiences verbatim; instead, they reo",
+  "authors": [
+   "Rong Wu",
+   "Daocheng Fu",
+   "Licheng Wen",
+   "Xuemeng Yang",
+   "Shu Zou",
+   "Jianbiao Mei"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "ENPMR-Bench: Benchmarking Proactive Memory Retrieval for Emotional Support Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.27240v1",
+  "cited_by": null,
+  "abstract": "Memory-augmented language agents are increasingly deployed in affective applications such as emotional support, where understanding and responding to users' latent emotional needs is critical. However, existing research often treats memory as a tool for factual retrieval, overlooking its role in shaping users' emotional experiences. In this work, we introduce ENPMR-Bench, a benchmark for evaluating Emotional Need-aware Proactive Memory Retrieval (ENPMR), a core capability that enables agents to infer users' latent emotional needs and proactively retrieve appropriate memories to support empathe",
+  "authors": [
+   "Xing Fu",
+   "Yulin Hu",
+   "Mengtong Ji",
+   "Haozhen Li",
+   "Yixin Sun",
+   "Weixiang Zhao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2601.13722v2",
+  "cited_by": null,
+  "abstract": "Memory-augmented conversational agents enable personalized interactions using long-term user memory and have gained substantial traction. However, existing benchmarks primarily focus on whether agents can recall and apply user information, while overlooking whether such personalization is used appropriately. In fact, agents may overuse personal information, producing responses that feel forced, intrusive, or socially inappropriate to users. We refer to this issue as \\emph{over-personalization}. In this work, we formalize over-personalization into three types: Irrelevance, Repetition, and Sycop",
+  "authors": [
+   "Yulin Hu",
+   "Zimo Long",
+   "Jiahe Guo",
+   "Xingyu Sui",
+   "Xing Fu",
+   "Weixiang Zhao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Evaluating Long-Term Memory for Long-Context Question Answering",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2510.23730v2",
+  "cited_by": null,
+  "abstract": "In order for large language models to achieve true conversational continuity and benefit from experiential learning, they need memory. While research has focused on the development of complex memory systems, it remains unclear which types of memory are most effective for long-context conversational tasks. We present a systematic evaluation of memory-augmented methods on long-context dialogues annotated for question-answering tasks that require diverse reasoning strategies. We analyse full-context prompting, semantic memory through retrieval-augmented generation and agentic memory, episodic mem",
+  "authors": [
+   "Alessandra Terranova",
+   "Bj\u00f6rn Ross",
+   "Alexandra Birch"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Oblivion: Self-Adaptive Agentic Memory Control through Decay-Driven Activation",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2604.00131v3",
+  "cited_by": null,
+  "abstract": "Human memory adapts through selective forgetting: experiences become less accessible over time but can be reactivated by reinforcement or contextual cues. In contrast, memory-augmented LLM agents rely on \"always-on\" retrieval and \"flat\" memory storage, causing high interference and latency as histories grow. We introduce Oblivion, a memory control framework that casts forgetting as decay-driven reductions in accessibility -- not explicit deletion. Oblivion decouples memory control into read and write paths. The read path decides when to consult memory, based on agent uncertainty and memory buf",
+  "authors": [
+   "Ashish Rana",
+   "Chia-Chien Hung",
+   "Qumeng Sun",
+   "Julian Martin Kunkel",
+   "Carolin Lawrence"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Mem-\u03b1: Learning Memory Construction via Reinforcement Learning",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2509.25911v1",
+  "cited_by": null,
+  "abstract": "Large language model (LLM) agents are constrained by limited context windows, necessitating external memory systems for long-term information understanding. Current memory-augmented agents typically depend on pre-defined instructions and tools for memory updates. However, language models may lack the ability to determine which information to store, how to structure it, and when to update it, especially as memory systems become more complex. This results in suboptimal memory construction and information loss. To this end, we propose Mem-alpha, a reinforcement learning framework that trains agen",
+  "authors": [
+   "Yu Wang",
+   "Ryuichi Takanobu",
+   "Zhiqi Liang",
+   "Yuzhen Mao",
+   "Yuanzhe Hu",
+   "Julian McAuley"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Agentic Recommender System with Hierarchical Belief-State Memory",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.14401v2",
+  "cited_by": null,
+  "abstract": "Memory-augmented LLM agents have advanced personalized recommendation, yet existing approaches universally adopt flat memory representations that conflate ephemeral signals with stable preferences, and none provides a complete lifecycle governing how memory should evolve. We propose MARS (Memory-Augmented Agentic Recommender System), a framework that treats recommendation as a partially observable problem and maintains a structured belief state that progressively abstracts noisy behavioral observations into a compact estimate of user preferences. MARS organizes this belief state into three tie",
+  "authors": [
+   "Xiang Shen",
+   "Yuhang Zhou",
+   "Yifan Wu",
+   "Zhuokai Zhao",
+   "Siyu Lin",
+   "Lei Huang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "MemFactory: Unified Inference &amp; Training Framework for Agent Memory",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2603.29493v4",
+  "cited_by": null,
+  "abstract": "Memory-augmented Large Language Models (LLMs) are essential for developing capable, long-term AI agents. Recently, applying Reinforcement Learning (RL) to optimize memory operations, such as extraction, updating, and retrieval, has emerged as a highly promising research direction. However, existing implementations remain highly fragmented and task-specific, lacking a unified infrastructure to streamline the integration, training, and evaluation of these complex pipelines. To address this gap, we present MemFactory, the first unified, highly modular training and inference framework specifically",
+  "authors": [
+   "Ziliang Guo",
+   "Ziheng Li",
+   "Bo Tang",
+   "Feiyu Xiong",
+   "Zhiyu Li"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "KARMA: Augmenting Embodied AI Agents with Long-and-short Term Memory Systems",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2409.14908v2",
+  "cited_by": null,
+  "abstract": "Embodied AI agents responsible for executing interconnected, long-sequence household tasks often face difficulties with in-context memory, leading to inefficiencies and errors in task execution. To address this issue, we introduce KARMA, an innovative memory system that integrates long-term and short-term memory modules, enhancing large language models (LLMs) for planning in embodied agents through memory-augmented prompting. KARMA distinguishes between long-term and short-term memory, with long-term memory capturing comprehensive 3D scene graphs as representations of the environment, while sh",
+  "authors": [
+   "Zixuan Wang",
+   "Bo Yu",
+   "Junzhe Zhao",
+   "Wenhao Sun",
+   "Sai Hou",
+   "Shuai Liang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "Enhancing Software Engineering Through Closed-Loop Memory Optimization",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2606.05646v1",
+  "cited_by": null,
+  "abstract": "Large language models (LLMs) have enabled powerful software engineering (SE) agents capable of navigating complex codebases and resolving real-world issues. However, these agents remain fundamentally episodic: they fail to retain, refine, and reuse experiences across tasks, repeatedly reconstructing context from scratch and reproducing similar mistakes. Even with memory support, they offer no remedy for the absence of a principled, task-agnostic \\textit{memory utility}, making them difficult to evaluate rigorously or generalize across agents and settings. To tackle these limitations, we introd",
+  "authors": [
+   "Xuehang Guo",
+   "Zora Zhiruo Wang",
+   "Qingyun Wang",
+   "Graham Neubig",
+   "Xingyao Wang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "memory_arch",
+  "query": "abs:\"MemGPT\" OR abs:\"memory-augmented\" AND abs:\"agent\" OR abs:\"long-term memory\" AND abs:\"LLM agent\"",
+  "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.14906v1",
+  "cited_by": null,
+  "abstract": "Memory is essential for large vision-language models (LVLMs) to handle long, multimodal interactions, with two method directions providing this capability: long-context LVLMs and memory-augmented agents. However, no existing benchmark conducts a systematic comparison of the two on questions that genuinely require multimodal evidence. To close this gap, we introduce MEMLENS, a comprehensive benchmark for memory in multimodal multi-session conversations, comprising 789 questions across five memory abilities (information extraction, multi-session reasoning, temporal reasoning, knowledge update, a",
+  "authors": [
+   "Xiyu Ren",
+   "Zhaowei Wang",
+   "Yiming Du",
+   "Zhongwei Xie",
+   "Chi Liu",
+   "Xinlin Yang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Large Language Models Empowered Personalized Web Agents",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2410.17236v2",
+  "cited_by": null,
+  "abstract": "Web agents have emerged as a promising direction to automate Web task completion based on user instructions, significantly enhancing user experience. Recently, Web agents have evolved from traditional agents to Large Language Models (LLMs)-based Web agents. Despite their success, existing LLM-based Web agents overlook the importance of personalized data (e.g., user profiles and historical Web behaviors) in assisting the understanding of users' personalized instructions and executing customized actions. To overcome the limitation, we first formulate the task of LLM-empowered personalized Web ag",
+  "authors": [
+   "Hongru Cai",
+   "Yongqi Li",
+   "Wenjie Wang",
+   "Fengbin Zhu",
+   "Xiaoyu Shen",
+   "Wenjie Li"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "From Passive Retrieval to Active Memory Navigation: Learning to Use Memory as a Structured Action Space",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2607.05794v1",
+  "cited_by": null,
+  "abstract": "Long-term user memory is essential for personalized conversational agents, yet many memory systems still expose memory through passive retrieval interfaces, making the model a consumer of pre-selected evidence. We introduce NapMem, a framework for learning to use long-term user memory as a structured action space rather than passively retrieved context. NapMem organizes user history into a linked multi-granularity memory pyramid, where raw conversations, typed memory records, topic tracks, and user profiles are connected through provenance relations, and exposes these levels through memory too",
+  "authors": [
+   "Yue Xu",
+   "Yutao Sun",
+   "Yihao Liu",
+   "Mengyu Zhou",
+   "Jiayi Qiao",
+   "Lu Ma"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Learning How and What to Memorize: Cognition-Inspired Two-Stage Optimization for Evolving Memory",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.00702v1",
+  "cited_by": null,
+  "abstract": "Large language model (LLM) agents require long-term user memory for consistent personalization, but limited context windows hinder tracking evolving preferences over long interactions. Existing memory systems mainly rely on static, hand-crafted update rules; although reinforcement learning (RL)-based agents learn memory updates, sparse outcome rewards provide weak supervision, resulting in unstable long-horizon optimization. Drawing on memory schema theory and the functional division between prefrontal regions and hippocampus regions, we introduce MemCoE, a cognition-inspired two-stage optimiz",
+  "authors": [
+   "Derong Xu",
+   "Shuochen Liu",
+   "Pengfei Luo",
+   "Pengyue Jia",
+   "Yingyi Zhang",
+   "Yi Wen"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.14498v2",
+  "cited_by": null,
+  "abstract": "Large Language Model (LLM) agents increasingly serve as personal assistants and workplace collaborators, where their utility depends on memory systems that extract, retrieve, and apply information across long-running conversations. However, both existing memory systems and benchmarks are built around the dyadic, single-user setup, even though real deployments routinely span groups and channels with multiple users interacting with the agent and with each other. This mismatch leaves three properties of group memory unmeasured: (i) group dynamics that go beyond concatenated one-on-one chats, (ii)",
+  "authors": [
+   "Jingbo Yang",
+   "Kwei-Herng Lai",
+   "Xiaowen Wang",
+   "Shiyu Chang",
+   "Yaar Harari",
+   "Evgeniy Gabrilovich"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "StorySage: Conversational Autobiography Writing Powered by a Multi-Agent Framework",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2506.14159v2",
+  "cited_by": null,
+  "abstract": "Every individual carries a unique and personal life story shaped by their memories and experiences. However, these memories are often scattered and difficult to organize into a coherent narrative, a challenge that defines the task of autobiography writing. Existing conversational writing assistants tend to rely on generic user interactions and pre-defined guidelines, making it difficult for these systems to capture personal memories and develop a complete biography over time. We introduce StorySage, a user-driven software system designed to meet the needs of a diverse group of users that suppo",
+  "authors": [
+   "Shayan Talaei",
+   "Meijin Li",
+   "Kanu Grover",
+   "James Kent Hippler",
+   "Diyi Yang",
+   "Amin Saberi"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Parametric Multimodal User Memory: Storing What Captions Cannot Carry",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.28609v1",
+  "cited_by": null,
+  "abstract": "A personalized agent needs a user memory: a persistent model of who its user is. Today it is almost always text -- transcripts and captions retrieved by similarity. This serves the captionable half of a person (\"my cat is named Bibi\"), but discards the perceptual half no caption can hold: how a voice sounds, how a face reads across age and lighting, how tired someone sounds. We measure this loss across five modalities: a strong caption-based re-identifier recovers as little as 0.11 of a dedicated encoder's recall, collapsing toward chance on non-nameable signals. We instead ground perceptual m",
+  "authors": [
+   "Bojie Li",
+   "Noah Shi"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Learning Personalized Agents from Human Feedback",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2602.16173v1",
+  "cited_by": null,
+  "abstract": "Modern AI agents are powerful but often fail to align with the idiosyncratic, evolving preferences of individual users. Prior approaches typically rely on static datasets, either training implicit preference models on interaction history or encoding user profiles in external memory. However, these approaches struggle with new users and with preferences that change over time. We introduce Personalized Agents from Human Feedback (PAHF), a framework for continual personalization in which agents learn online from live interaction using explicit per-user memory. PAHF operationalizes a three-step lo",
+  "authors": [
+   "Kaiqu Liang",
+   "Julia Kruk",
+   "Shengyi Qian",
+   "Xianjun Yang",
+   "Shengjie Bi",
+   "Yuanshun Yao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2609.32511v1",
+  "cited_by": null,
+  "abstract": "Large language model (LLM) agents serving different users often solve related tasks, yet separate user histories can leave reusable experience inaccessible to other agents. Pooling memories expands access but risks transferring preferences that conflict with the receiving user's requirements. We introduce ShareMem, a memory architecture that shares reusable experience while grounding its application in the receiving user's own preferences. Shared experiences indicate how to act and which preferences to consult; the receiving user's memory supplies their concrete values. Two-stage consolidation",
+  "authors": [
+   "Jinming Hu",
+   "Haodong Zhao",
+   "Qi Jia",
+   "Die Chen",
+   "Tianhang Zhao",
+   "Sufeng Duan"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "CUE-Mem: Benchmarking Long-Term User Memory via Implicit Cues in Multimodal Conversations",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2609.32574v1",
+  "cited_by": null,
+  "abstract": "Long-term memory is essential for multimodal agents that interact with users across sustained conversations. However, user memories are not always explicitly stated: they may also be implied by recurring background objects in images, ambient sounds in audio, or other peripheral multimodal cues. Existing benchmarks largely focus on text-only memory or explicit multimodal evidence, leaving implicit multimodal cues underexplored. We introduce CUE-Mem, a text-image-audio benchmark for evaluating long-term user memory from implicit cues. CUE-Mem contains 2,674 questions across explicit and implicit",
+  "authors": [
+   "Yulin Hu",
+   "Yanyan Zhao",
+   "Zimo Long",
+   "Xing Fu",
+   "Mengtong Ji",
+   "Weixiang Zhao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "User as Code: Executable Memory for Personalized Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2606.16707v1",
+  "cited_by": null,
+  "abstract": "A personalized AI agent needs a user memory: a persistent model of who the user is, built across many conversations and consulted on each new one. Today this memory is almost always stored as unstructured text, a knowledge graph, or a flat store of facts, and consulted by retrieval -- fetching the entries most similar to the current request. Such \"bag-of-facts\" memory recalls individual facts well, but because storing a fact and acting on it are separate steps, it struggles to resolve contradictions, aggregate over many records, or enforce rules. We argue that user memory should instead be exe",
+  "authors": [
+   "Bojie Li"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "AFA: Identity-Aware Memory for Preventing Persona Confusion in Multi-User Dialogue",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2604.25022v1",
+  "cited_by": null,
+  "abstract": "When multiple people share a single voice assistant, the system conflates their histories: one resident's preferences can leak into another's responses, eroding utility and trust. We call this failure mode persona confusion, and we show it is a measurable problem in today's single-user dialogue systems when deployed in shared environments. We present the Adaptive Friend Agent (AFA), a modular framework that combines voice-based speaker identification with per-user memory stores to enable identity-aware, personalized dialogue across multiple users. To support training and evaluation, we constru",
+  "authors": [
+   "Mohammad Al-Ratrout",
+   "Pavan Uttej Ravva",
+   "Shayla Sharmin",
+   "Aditya Raikwar",
+   "Ju Young Shin",
+   "Roghayeh Leila Barmaki"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "TabClaw: An Interactive and Self-Evolving Agent for Spreadsheet Manipulation and Table Reasoning",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2606.10316v1",
+  "cited_by": null,
+  "abstract": "Spreadsheets and tables are widely used representations for structured data analysis, but effective analysis still requires substantial manual effort and domain expertise. Recent large language model (LLM) agents can automate parts of this process, but they often provide limited transparency into intermediate decisions, rely on implicit assumptions, struggle with multi-table comparison, and repeat similar workflows without adapting to a user's preferences. This paper presents TabClaw, an open-source interactive AI agent for spreadsheet manipulation and table reasoning. Users upload CSV or Exce",
+  "authors": [
+   "Mingyue Cheng",
+   "Shuo Yu",
+   "Daoyu Wang",
+   "Qingchuan Li",
+   "Xiaoyu Tao",
+   "Qingyang Mao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "AdaMem: Learning What to Remember with Adaptive Memory Policies for Personalized Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2606.21144v2",
+  "cited_by": null,
+  "abstract": "Long-term memory systems allow LLM agents to preserve information beyond a single context window, but most systems focus on storing and retrieving facts after extraction, leaving the write decision under-specified. What deserves memory can depend on the user's current task, topic, activity, or interaction partner, while uniform extraction applies one notion of importance across these different situations. We formulate this challenge as preference-conditioned write control and introduce AdaMem, which uses adaptive natural-language Memory Policies to personalize what an agent writes to memory. E",
+  "authors": [
+   "Xingyu Chen",
+   "Rui Wang",
+   "Zhaopeng Tu",
+   "Liefeng Bo"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Personalized Deep Research Query Refinement with Graph-Scaffolded Evidence Grounding",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.05876v1",
+  "cited_by": null,
+  "abstract": "User requests serve as research specifications for deep research agents, shaping what evidence to seek and how to synthesize it. In personalized deep research, these specifications must additionally reflect user goals, constraints, preferences, and evaluation criteria. User context can be incorporated either within the deep research pipeline or into the research specification provided as its input. We focus on the latter, refining the user request into a personalized research specification before passing it to an unchanged deep research agent. This requires resolving three coupled decisions: w",
+  "authors": [
+   "Soojin Yoon",
+   "Dongha Lee"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "ProPerAgent: Toward Memory-Driven Proactive Assistance",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2610.22671v1",
+  "cited_by": null,
+  "abstract": "As assistants move from reactive answering toward proactive intervention, memory changes role: it no longer only supplies the answer to a query, it determines whether and when to speak at all. Prior work in this setting hands the system the relevant fact in context; we study the regime that makes the problem hard, where the evidence justifying an intervention must be mined from a long-horizon personal memory. We introduce ProPerMem, a benchmark for memory-driven proactive assistance (MPA), pairing egocentric video with year-long, distractor-rich user memories (~618K tokens on average), human-v",
+  "authors": [
+   "Shenglai Zeng",
+   "Xiao Yang",
+   "Tiffany Ma",
+   "Xinyuan Zhang",
+   "Nanshu Wang",
+   "Deren Lei"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "MemLeak: Cross-User Semantic Leakage in Multi-Tenant AI Agent Memory",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2610.04195v1",
+  "cited_by": null,
+  "abstract": "Personal AI agents in enterprise multi-tenant deployments share a common vector store for long-term memory. Shared embedding spaces create a surface for cross-user memory leakage: a user's query can retrieve semantically adjacent memories belonging to another user through ordinary cosine-similarity retrieval, without any exploit. We formalize this as cross-user admissibility failure and evaluate it across six experiments, plus follow-up ablations, under both sparse (TF-IDF) and production-faithful (MiniLM-L6-v2) retrieval. Non-adversarial, incidental leakage reaches 70--100\\% under pooled {sam",
+  "authors": [
+   "Priyanka Mudgal",
+   "Kai Zhao",
+   "Guilin Zhang",
+   "Andy Olsen",
+   "Ezekiel Miller",
+   "Xu Chu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Explicit State Elicitation Is Not Enough: A Controlled Audit of Memory-Policy Classification",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.17247v1",
+  "cited_by": null,
+  "abstract": "Personalized agents must decide whether retrieved user memory should be used, ignored, updated, or queried before it affects a current task. We use this setting to develop an empirical audit protocol for structured intermediate outputs: first audit dataset shortcuts, then isolate bundled prompt changes, check whether intermediate labels are answer-associated, test decomposed semantic evidence, and audit provider-level execution failures. A 480-example synthetic development set initially suggested large gains from a state-structured prompt bundle, but TF-IDF diagnostics showed lexical separabil",
+  "authors": [
+   "Yihang Chen",
+   "Pin Qian",
+   "Su Wang",
+   "Chong Peng",
+   "Huan Xu",
+   "Shuaiting Li"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Introducing MeMo: A Multimodal Dataset for Memory Modelling in Multiparty Conversations",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2409.13715v2",
+  "cited_by": null,
+  "abstract": "Conversational memory is the process by which humans encode, retain and retrieve verbal, non-verbal and contextual information from a conversation. Since human memory is selective, differing recollections of the same events can lead to misunderstandings and misalignments within a group. Yet, conversational facilitation systems, aimed at advancing the quality of group interactions, usually focus on tracking users' states within an individual session, ignoring what remains in each participant's memory after the interaction. Understanding conversational memory can be used as a source of informati",
+  "authors": [
+   "Maria Tsfasman",
+   "Bernd Dudzik",
+   "Kristian Fenech",
+   "Andras Lorincz",
+   "Catholijn M. Jonker",
+   "Catharine Oertel"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Response-Aware User Memory Selection for LLM Personalization",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2604.14473v1",
+  "cited_by": null,
+  "abstract": "A common approach to personalization in large language models (LLMs) is to incorporate a subset of the user memory into the prompt at inference time to guide the model's generation. Existing methods select these subsets primarily using similarity between user memory items and input queries, ignoring how features actually affect the model's response distribution. We propose Response-Utility optimization for Memory Selection (RUMS), a novel method that selects user memory items by measuring the mutual information between a subset of memory and the model's outputs, identifying items that reduce r",
+  "authors": [
+   "Jillian Fisher",
+   "Jennifer Neville",
+   "Chan Young Park"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Back to Basics: Let Conversational Agents Remember with Just Retrieval and Generation",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2604.11628v1",
+  "cited_by": null,
+  "abstract": "Existing conversational memory systems rely on complex hierarchical summarization or reinforcement learning to manage long-term dialogue history, yet remain vulnerable to context dilution as conversations grow. In this work, we offer a different perspective: the primary bottleneck may lie not in memory architecture, but in the \\textit{Signal Sparsity Effect} within the latent knowledge manifold. Through controlled experiments, we identify two key phenomena: \\textit{Decisive Evidence Sparsity}, where relevant signals become increasingly isolated with longer sessions, leading to sharp degradatio",
+  "authors": [
+   "Yuqian Wu",
+   "Wei Chen",
+   "Zhengjun Huang",
+   "Junle Chen",
+   "Qingxiang Liu",
+   "Kai Wang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Convomem Benchmark: Why Your First 150 Conversations Don't Need RAG",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2511.10523v1",
+  "cited_by": null,
+  "abstract": "We introduce a comprehensive benchmark for conversational memory evaluation containing 75,336 question-answer pairs across diverse categories including user facts, assistant recall, abstention, preferences, temporal changes, and implicit connections. While existing benchmarks have advanced the field, our work addresses fundamental challenges in statistical power, data generation consistency, and evaluation flexibility that limit current memory evaluation frameworks. We examine the relationship between conversational memory and retrieval-augmented generation (RAG). While these systems share fun",
+  "authors": [
+   "Egor Pakhomov",
+   "Erik Nijkamp",
+   "Caiming Xiong"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2604.14362v1",
+  "cited_by": null,
+  "abstract": "Large language models still struggle with reliable long-term conversational memory: simply enlarging context windows or applying naive retrieval often introduces noise and destabilizes responses. We present APEX-MEM, a conversational memory system that combines three key innovations: (1) a property graph which uses domain-agnostic ontology to structure conversations as temporally grounded events in an entity-centric framework, (2) append-only storage that preserves the full temporal evolution of information, and (3) a multi-tool retrieval agent that understands and resolves conflicting or evol",
+  "authors": [
+   "Pratyay Banerjee",
+   "Masud Moshtaghi",
+   "Shivashankar Subramanian",
+   "Amita Misra",
+   "Ankit Chadha"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Memory Sandbox: Transparent and Interactive Memory Management for Conversational Agents",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2308.01542v1",
+  "cited_by": null,
+  "abstract": "The recent advent of large language models (LLM) has resulted in high-performing conversational agents such as chatGPT. These agents must remember key information from an ongoing conversation to provide responses that are contextually relevant to the user. However, these agents have limited memory and can be distracted by irrelevant parts of the conversation. While many strategies exist to manage conversational memory, users currently lack affordances for viewing and controlling what the agent remembers, resulting in a poor mental model and conversational breakdowns. In this paper, we present ",
+  "authors": [
+   "Ziheng Huang",
+   "Sebastian Gutierrez",
+   "Hemanth Kamana",
+   "Stephen MacNeil"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "From Memory Hits to Answerable Evidence: Query-Conditioned Memory Compilation for Long-Term Agent Memory",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2610.23313v1",
+  "cited_by": null,
+  "abstract": "Long-term agent memory requires recovering answer-relevant evidence dispersed across turns and sessions. Existing systems increasingly use structured memories and adaptive retrieval, yet often pass retrieved or expanded units directly to the reader, coupling memory addressing with evidence presentation and leaving the final context redundant or incomplete. To address this gap, we propose MemCompile, a query-conditioned evidence compilation framework for long-term conversational memory. Given a query, the Address Plane locates relevant support through compact source-linked descriptors and capac",
+  "authors": [
+   "Shangze Li",
+   "Yanyu Yao",
+   "Derong Xu",
+   "Zhi Zheng",
+   "Tong Xu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "Same Ranking, Different Winner: How Scoring Targets Shape LLM Memory Benchmarks",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.24060v2",
+  "cited_by": null,
+  "abstract": "Conversational-memory systems increasingly transform dialogue history into facts, summaries, timelines, and other source-linked descendants, so a single source turn can coexist with several derived memories in the same retrieval index. This raises an underspecified evaluation question: which stored form should receive retrieval credit? We show that this scoring-target choice is often left implicit and can materially change benchmark conclusions. We present TIAP, a fixed-output audit that rescores saved ranked outputs under three targets -- Raw, Source, and Canonical -- without rerunning retrie",
+  "authors": [
+   "Sugam Panthi",
+   "Rabab Abdelfattah"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2510.09905v2",
+  "cited_by": null,
+  "abstract": "When an AI assistant remembers that Sarah is a single mother working two jobs, does it interpret her stress differently than if she were a wealthy executive? As personalized AI systems increasingly incorporate long-term user memory, understanding how this memory shapes emotional reasoning is critical. We investigate how user memory affects emotional intelligence in large language models (LLMs) by evaluating 15 models on human-validated emotional intelligence tests. We find that identical scenarios paired with different user profiles produce systematically divergent emotional interpretations. A",
+  "authors": [
+   "Xi Fang",
+   "Weijie Xu",
+   "Yuchong Zhang",
+   "Stephanie Eckman",
+   "Scott Nickleach",
+   "Chandan K. Reddy"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "AMU:Admission and Memory Update for Personalized Conversations---Structured Memory with SLM Guided Control",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2609.36976v2",
+  "cited_by": null,
+  "abstract": "Large language models (LLMs) have become the foundation of personalized assistants, but maintaining persistent user memory across long-term interactions remains challenging. Existing memory systems often focus on storage, retrieval, or consolidation, while memory writing remains less controlled: transient requests, duplicate statements, and outdated user states may enter memory and later be retrieved for personalization. In this paper, we present AMU: Admission and Memory Update for Personalized Conversations, an SLM-guided (Small language model guided) structured framework for writing-time me",
+  "authors": [
+   "Tao Hwang",
+   "Yishi Diao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "CMT-RAG: Complementary Memory Traces for Multi-turn Multi-hop RAG",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2607.26470v2",
+  "cited_by": null,
+  "abstract": "Multi-turn information-seeking conversations require both multi-hop reasoning and long-range dependency tracking across turns. However, existing RAG systems typically represent conversational memory as raw dialogue history, rewritten queries, or unstructured summaries, making it difficult to recover the specific prior reasoning steps and evidence required for follow-up queries. Our key insight is to align conversational memory with retrieval by representing dialogue context as sub-question-level reasoning traces. Building on this insight, we introduce MuMu-QA, a benchmark for multi-turn multi-",
+  "authors": [
+   "Lang Zhou",
+   "Yingjian Chen",
+   "Shuxuan Li",
+   "Kun-Yu Lin",
+   "Zhilin Zhao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "conv_memory",
+  "query": "abs:\"conversational memory\" OR abs:\"user memory\" AND abs:\"language model\" OR abs:\"personalized\" AND abs:\"memory\" AND abs:\"agent\"",
+  "title": "ProTTT: Learning to Learn Semantic User Memory with Test-Time Training",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2609.32564v1",
+  "cited_by": null,
+  "abstract": "Personalization requires language models to capture user-specific knowledge from a growing user history. Existing context-based approaches incur increasing inference costs as user history accumulates and rely on separate retrieval or summarization stages, while parametric-based approaches often require reconstructing user representations when new user data is added. We introduce ProTTT, a profile-supervised meta-learning framework for learning semantic user memory. The memory construction starts from a shared initialization and is updated for each user through test-time training on user histor",
+  "authors": [
+   "Sejun Park",
+   "Hyoungjo Bhang",
+   "Hyein Jeong",
+   "Yohan Jo"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Propagation and Pitfalls: Reasoning-based Assessment of Knowledge Editing through Counterfactual Tasks",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2401.17585v1",
+  "cited_by": null,
+  "abstract": "Current approaches of knowledge editing struggle to effectively propagate updates to interconnected facts. In this work, we delve into the barriers that hinder the appropriate propagation of updated knowledge within these models for accurate reasoning. To support our analysis, we introduce a novel reasoning-based benchmark -- ReCoE (Reasoning-based Counterfactual Editing dataset) -- which covers six common reasoning schemes in real world. We conduct a thorough analysis of existing knowledge editing techniques, including input augmentation, finetuning, and locate-and-edit. We found that all mod",
+  "authors": [
+   "Wenyue Hua",
+   "Jiang Guo",
+   "Mingwen Dong",
+   "Henghui Zhu",
+   "Patrick Ng",
+   "Zhiguo Wang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "History Matters: Temporal Knowledge Editing in Large Language Model",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2312.05497v3",
+  "cited_by": null,
+  "abstract": "The imperative task of revising or updating the knowledge stored within large language models arises from two distinct sources: intrinsic errors inherent in the model which should be corrected and outdated knowledge due to external shifts in the real world which should be updated. Prevailing efforts in model editing conflate these two distinct categories of edits arising from distinct reasons and directly modify the original knowledge in models into new knowledge. However, we argue that preserving the model's original knowledge remains pertinent. Specifically, if a model's knowledge becomes ou",
+  "authors": [
+   "Xunjian Yin",
+   "Jin Jiang",
+   "Liming Yang",
+   "Xiaojun Wan"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "How Well Can Knowledge Edit Methods Edit Perplexing Knowledge?",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2406.17253v3",
+  "cited_by": null,
+  "abstract": "Large language models (LLMs) have demonstrated remarkable capabilities, but updating their knowledge post-training remains a critical challenge. While recent model editing techniques like Rank-One Model Editing (ROME) show promise, their effectiveness may vary based on the nature of the knowledge being edited. We introduce the concept of ``perplexingness'': the degree to which new knowledge conflicts with an LLM's learned conceptual hierarchies and categorical relationships. For instance, editing ``British Shorthair is a kind of cat'' to ``British Shorthair is a kind of dog'' represents a low-",
+  "authors": [
+   "Huaizhi Ge",
+   "Frank Rudzicz",
+   "Zining Zhu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Revealing the Deceptiveness of Knowledge Editing: A Mechanistic Analysis of Superficial Editing",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2505.12636v1",
+  "cited_by": null,
+  "abstract": "Knowledge editing, which aims to update the knowledge encoded in language models, can be deceptive. Despite the fact that many existing knowledge editing algorithms achieve near-perfect performance on conventional metrics, the models edited by them are still prone to generating original knowledge. This paper introduces the concept of \"superficial editing\" to describe this phenomenon. Our comprehensive evaluation reveals that this issue presents a significant challenge to existing algorithms. Through systematic investigation, we identify and validate two key factors contributing to this issue: ",
+  "authors": [
+   "Jiakuan Xie",
+   "Pengfei Cao",
+   "Yubo Chen",
+   "Kang Liu",
+   "Jun Zhao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "BalancEdit: Dynamically Balancing the Generality-Locality Trade-off in Multi-modal Model Editing",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2505.01343v2",
+  "cited_by": null,
+  "abstract": "Large multi-modal models inevitably decay over time as facts update and previously learned information becomes outdated. Traditional approaches such as fine-tuning are often impractical for updating these models due to their size and complexity. Instead, direct knowledge editing within the models presents a more viable solution. Current model editing techniques, however, typically overlook the unique influence ranges of different facts, leading to compromised model performance in terms of both generality and locality. To address this issue, we introduce the concept of the generality-locality t",
+  "authors": [
+   "Dongliang Guo",
+   "Mengxuan Hu",
+   "Zihan Guan",
+   "Thomas Hartvigsen",
+   "Sheng Li"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Position: Editing Large Language Models Poses Serious Safety Risks",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2502.02958v3",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) contain large amounts of facts about the world. These facts can become outdated over time, which has led to the development of knowledge editing methods (KEs) that can change specific facts in LLMs with limited side effects. This position paper argues that editing LLMs poses serious safety risks that have been largely overlooked. First, we note the fact that KEs are widely available, computationally inexpensive, highly performant, and stealthy makes them an attractive tool for malicious actors. Second, we discuss malicious use cases of KEs, showing how KEs can be e",
+  "authors": [
+   "Paul Youssef",
+   "Zhixue Zhao",
+   "Daniel Braun",
+   "J\u00f6rg Schl\u00f6tterer",
+   "Christin Seifert"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Conflict-Resolving and Sharpness-Aware Minimization for Generalized Knowledge Editing with Multiple Updates",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2602.03696v1",
+  "cited_by": null,
+  "abstract": "Large language models (LLMs) rely on internal knowledge to solve many downstream tasks, making it crucial to keep them up to date. Since full retraining is expensive, prior work has explored efficient alternatives such as model editing and parameter-efficient fine-tuning. However, these approaches often break down in practice due to poor generalization across inputs, limited stability, and knowledge conflict. To address these limitations, we propose the CoRSA (Conflict-Resolving and Sharpness-Aware Minimization) training framework, a parameter-efficient, holistic approach for knowledge editing",
+  "authors": [
+   "Duy Nguyen",
+   "Hanqi Xiao",
+   "Archiki Prasad",
+   "Elias Stengel-Eskin",
+   "Hyunji Lee",
+   "Mohit Bansal"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Evaluating the Reversal Curse in Model Editing",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2310.10322v4",
+  "cited_by": null,
+  "abstract": "Large language models (LLMs) are prone to hallucinate unintended text due to false or outdated knowledge. Since retraining LLMs is resource intensive, there has been a growing interest in model editing. Despite the emergence of benchmarks and approaches, existing unidirectional editing and evaluation paradigms have failed to explore the reversal curse. In this paper, we study bidirectional language model editing, aiming to provide a rigorous evaluation to assess if edited LLMs can recall the editing knowledge bidirectionally. A metric of reverse generalization is introduced and a benchmark dub",
+  "authors": [
+   "Hao-Xiang Xu",
+   "Jun-Yu Ma",
+   "Zhen-Hua Ling",
+   "Quan Liu",
+   "Cong Liu",
+   "Jia-Chen Gu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Knowledge in Superposition: Unveiling the Failures of Lifelong Knowledge Editing for Large Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2408.07413v3",
+  "cited_by": null,
+  "abstract": "Knowledge editing aims to update outdated or incorrect knowledge in large language models (LLMs). However, current knowledge editing methods have limited scalability for lifelong editing. This study explores the fundamental reason why knowledge editing fails in lifelong editing. We begin with the closed-form solution derived from linear associative memory, which underpins state-of-the-art knowledge editing methods. We extend the solution from single editing to lifelong editing, and through rigorous mathematical derivation, identify an interference term in the final solution, suggesting that ed",
+  "authors": [
+   "Chenhui Hu",
+   "Pengfei Cao",
+   "Yubo Chen",
+   "Kang Liu",
+   "Jun Zhao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "WilKE: Wise-Layer Knowledge Editor for Lifelong Knowledge Editing",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2402.10987v2",
+  "cited_by": null,
+  "abstract": "Knowledge editing aims to rectify inaccuracies in large language models (LLMs) without costly retraining for outdated or erroneous knowledge. However, current knowledge editing methods primarily focus on single editing, failing to meet the requirements for lifelong editing. This study reveals a performance degradation encountered by knowledge editing in lifelong editing, characterized by toxicity buildup and toxicity flash, with the primary cause identified as pattern unmatch. We introduce a knowledge editing approach named Wise-Layer Knowledge Editor (WilKE), which selects editing layer based",
+  "authors": [
+   "Chenhui Hu",
+   "Pengfei Cao",
+   "Yubo Chen",
+   "Kang Liu",
+   "Jun Zhao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Has this Fact been Edited? Detecting Knowledge Edits in Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2405.02765v3",
+  "cited_by": null,
+  "abstract": "Knowledge editing methods (KEs) can update language models' obsolete or inaccurate knowledge learned from pre-training. However, KEs can be used for malicious applications, e.g., inserting misinformation and toxic content. Knowing whether a generated output is based on edited knowledge or first-hand knowledge from pre-training can increase users' trust in generative models and provide more transparency. Driven by this, we propose a novel task: detecting edited knowledge in language models. Given an edited model and a fact retrieved by a prompt from an edited model, the objective is to classify",
+  "authors": [
+   "Paul Youssef",
+   "Zhixue Zhao",
+   "Christin Seifert",
+   "J\u00f6rg Schl\u00f6tterer"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "DySK-Attn: A Framework for Efficient, Real-Time Knowledge Updating in Large Language Models via Dynamic Sparse Knowledge Attention",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2508.07185v3",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) suffer from a critical limitation: their knowledge is static and quickly becomes outdated. Retraining these massive models is computationally prohibitive, while existing knowledge editing techniques can be slow and may introduce unforeseen side effects. To address this, we propose DySK-Attn, a novel framework that enables LLMs to efficiently integrate real-time knowledge from a dynamic external source. Our approach synergizes an LLM with a dynamic Knowledge Graph (KG) that can be updated instantaneously. The core of our framework is a sparse knowledge attention mec",
+  "authors": [
+   "Kabir Khan",
+   "Priya Sharma",
+   "Arjun Mehta",
+   "Neha Gupta",
+   "Ravi Narayanan"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Assessing Knowledge Editing in Language Models via Relation Perspective",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2311.09053v1",
+  "cited_by": null,
+  "abstract": "Knowledge Editing (KE) for modifying factual knowledge in Large Language Models (LLMs) has been receiving increasing attention. However, existing knowledge editing methods are entity-centric, and it is unclear whether this approach is suitable for a relation-centric perspective. To address this gap, this paper constructs a new benchmark named RaKE, which focuses on Relation based Knowledge Editing. In this paper, we establish a suite of innovative metrics for evaluation and conduct comprehensive experiments involving various knowledge editing baselines. We notice that existing knowledge editin",
+  "authors": [
+   "Yifan Wei",
+   "Xiaoyan Yu",
+   "Huanhuan Ma",
+   "Fangyu Lei",
+   "Yixuan Weng",
+   "Ran Song"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "AKEW: Assessing Knowledge Editing in the Wild",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2402.18909v2",
+  "cited_by": null,
+  "abstract": "Knowledge editing injects knowledge updates into language models to keep them correct and up-to-date. However, its current evaluations deviate significantly from practice: their knowledge updates solely consist of structured facts derived from meticulously crafted datasets, instead of practical sources -- unstructured texts like news articles, and they often overlook practical real-world knowledge updates. To address these issues, in this paper we propose AKEW (Assessing Knowledge Editing in the Wild), a new practical benchmark for knowledge editing. AKEW fully covers three editing settings of",
+  "authors": [
+   "Xiaobao Wu",
+   "Liangming Pan",
+   "William Yang Wang",
+   "Anh Tuan Luu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Distributed Multi-Layer Editing for Rule-Level Knowledge in Large Language Models",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2604.08284v1",
+  "cited_by": null,
+  "abstract": "Large language models store not only isolated facts but also rules that support reasoning across symbolic expressions, natural language explanations, and concrete instances. Yet most model editing methods are built for fact-level knowledge, assuming that a target edit can be achieved through a localized intervention. This assumption does not hold for rule-level knowledge, where a single rule must remain consistent across multiple interdependent forms. We investigate this problem through a mechanistic study of rule-level knowledge editing. To support this study, we extend the RuleEdit benchmark",
+  "authors": [
+   "Yating Wang",
+   "Wenting Zhao",
+   "Yaqi Zhao",
+   "Yongshun Gong",
+   "Yilong Yin",
+   "Haoliang Sun"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "MEMLA: Enhancing Multilingual Knowledge Editing with Neuron-Masked Low-Rank Adaptation",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2406.11566v1",
+  "cited_by": null,
+  "abstract": "Knowledge editing aims to adjust the knowledge within large language models (LLMs) to prevent their responses from becoming obsolete or inaccurate. However, existing works on knowledge editing are primarily conducted in a single language, which is inadequate for multilingual language models. In this paper, we focus on multilingual knowledge editing (MKE), which requires propagating updates across multiple languages. This necessity poses a significant challenge for the task. Furthermore, the limited availability of a comprehensive dataset for MKE exacerbates this challenge, hindering progress i",
+  "authors": [
+   "Jiakuan Xie",
+   "Pengfei Cao",
+   "Yuheng Chen",
+   "Yubo Chen",
+   "Kang Liu",
+   "Jun Zhao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Aligning Language Models with Real-time Knowledge Editing",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2508.01302v4",
+  "cited_by": null,
+  "abstract": "Knowledge editing aims to modify outdated knowledge in language models efficiently while retaining their original capabilities. Mainstream datasets for knowledge editing are predominantly static and fail to keep in pace with the evolving real-world knowledge. In this work, we introduce CRAFT, an ever-evolving real-world dataset for knowledge editing. It evaluates models on temporal locality, common-sense locality, composite portability and alias portability, providing a comprehensive and challenging evaluation for knowledge editing, on which previous methods hardly achieve balanced performance",
+  "authors": [
+   "Chenming Tang",
+   "Yutong Yang",
+   "Kexue Wang",
+   "Yunfang Wu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Visual-Oriented Fine-Grained Knowledge Editing for MultiModal Large Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2411.12790v1",
+  "cited_by": null,
+  "abstract": "Knowledge editing aims to efficiently and cost-effectively correct inaccuracies and update outdated information. Recently, there has been growing interest in extending knowledge editing from Large Language Models (LLMs) to Multimodal Large Language Models (MLLMs), which integrate both textual and visual information, introducing additional editing complexities. Existing multimodal knowledge editing works primarily focus on text-oriented, coarse-grained scenarios, failing to address the unique challenges posed by multimodal contexts. In this paper, we propose a visual-oriented, fine-grained mult",
+  "authors": [
+   "Zhen Zeng",
+   "Leijiang Gu",
+   "Xun Yang",
+   "Zhangling Duan",
+   "Zenglin Shi",
+   "Meng Wang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Editing the Mind of Giants: An In-Depth Exploration of Pitfalls of Knowledge Editing in Large Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2406.01436v2",
+  "cited_by": null,
+  "abstract": "Knowledge editing is a rising technique for efficiently updating factual knowledge in large language models (LLMs) with minimal alteration of parameters. However, recent studies have identified side effects, such as knowledge distortion and the deterioration of general abilities, that have emerged after editing. Despite these findings, evaluating the pitfalls of knowledge editing often relies on inconsistent metrics and benchmarks, lacking a uniform standard. In response, this survey presents a comprehensive study of these side effects, providing a unified perspective on the challenges of know",
+  "authors": [
+   "Cheng-Hsun Hsueh",
+   "Paul Kuo-Ming Huang",
+   "Tzu-Han Lin",
+   "Che-Wei Liao",
+   "Hung-Chieh Fang",
+   "Chao-Wei Huang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "MLaKE: Multilingual Knowledge Editing Benchmark for Large Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2404.04990v3",
+  "cited_by": null,
+  "abstract": "The extensive utilization of large language models (LLMs) underscores the crucial necessity for precise and contemporary knowledge embedded within their intrinsic parameters. Existing research on knowledge editing primarily concentrates on monolingual scenarios, neglecting the complexities presented by multilingual contexts and multi-hop reasoning. To address these challenges, our study introduces MLaKE (Multilingual Language Knowledge Editing), a novel benchmark comprising 4072 multi-hop and 5360 single-hop questions designed to evaluate the adaptability of knowledge editing methods across fi",
+  "authors": [
+   "Zihao Wei",
+   "Jingcheng Deng",
+   "Liang Pang",
+   "Hanxing Ding",
+   "Huawei Shen",
+   "Xueqi Cheng"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "EasyEdit: An Easy-to-use Knowledge Editing Framework for Large Language Models",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2308.07269v3",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) usually suffer from knowledge cutoff or fallacy issues, which means they are unaware of unseen events or generate text with incorrect facts owing to outdated/noisy data. To this end, many knowledge editing approaches for LLMs have emerged -- aiming to subtly inject/edit updated knowledge or adjust undesired behavior while minimizing the impact on unrelated inputs. Nevertheless, due to significant differences among various knowledge editing methods and the variations in task setups, there is no standard implementation framework available for the community, which hin",
+  "authors": [
+   "Peng Wang",
+   "Ningyu Zhang",
+   "Bozhong Tian",
+   "Zekun Xi",
+   "Yunzhi Yao",
+   "Ziwen Xu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Knowledge Editing for Large Language Model with Knowledge Neuronal Ensemble",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2412.20637v1",
+  "cited_by": null,
+  "abstract": "As real-world knowledge is constantly evolving, ensuring the timeliness and accuracy of a model's knowledge is crucial. This has made knowledge editing in large language models increasingly important. However, existing knowledge editing methods face several challenges, including parameter localization coupling, imprecise localization, and a lack of dynamic interaction across layers. In this paper, we propose a novel knowledge editing method called Knowledge Neuronal Ensemble (KNE). A knowledge neuronal ensemble represents a group of neurons encoding specific knowledge, thus mitigating the issu",
+  "authors": [
+   "Yongchang Li",
+   "Yujin Zhu",
+   "Tao Yan",
+   "Shijian Fan",
+   "Gang Wu",
+   "Liang Xu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Can Knowledge Editing Really Correct Hallucinations?",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2410.16251v3",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) suffer from hallucinations, referring to the non-factual information in generated content, despite their superior capacities across tasks. Meanwhile, knowledge editing has been developed as a new popular paradigm to correct erroneous factual knowledge encoded in LLMs with the advantage of avoiding retraining from scratch. However, a common issue of existing evaluation datasets for knowledge editing is that they do not ensure that LLMs actually generate hallucinated answers to the evaluation questions before editing. When LLMs are evaluated on such datasets after be",
+  "authors": [
+   "Baixiang Huang",
+   "Canyu Chen",
+   "Xiongxiao Xu",
+   "Ali Payani",
+   "Kai Shu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "WikiBigEdit: Understanding the Limits of Lifelong Knowledge Editing in LLMs",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2503.05683v2",
+  "cited_by": null,
+  "abstract": "Keeping large language models factually up-to-date is crucial for deployment, yet costly retraining remains a challenge. Knowledge editing offers a promising alternative, but methods are only tested on small-scale or synthetic edit benchmarks. In this work, we aim to bridge research into lifelong knowledge editing to real-world edits at a practically relevant scale. We first introduce WikiBigEdit; a large-scale benchmark of real-world Wikidata edits, built to automatically extend lifelong for future-proof benchmarking. In its first instance, it includes over 500K question-answer pairs for know",
+  "authors": [
+   "Lukas Thede",
+   "Karsten Roth",
+   "Matthias Bethge",
+   "Zeynep Akata",
+   "Tom Hartvigsen"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Cross-Lingual Multi-Hop Knowledge Editing",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2407.10275v2",
+  "cited_by": null,
+  "abstract": "Large language models are often expected to constantly adapt to new sources of knowledge and knowledge editing techniques aim to efficiently patch the outdated model knowledge, with minimal modification. Most prior works focus on monolingual knowledge editing in English, even though new information can emerge in any language from any part of the world. We propose the Cross-Lingual Multi-Hop Knowledge Editing paradigm, for measuring and analyzing the performance of various SoTA knowledge editing techniques in a cross-lingual setup. Specifically, we create a parallel cross-lingual benchmark, CRO",
+  "authors": [
+   "Aditi Khandelwal",
+   "Harman Singh",
+   "Hengrui Gu",
+   "Tianlong Chen",
+   "Kaixiong Zhou"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Benchmarking Knowledge Editing using Logical Rules",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2606.10554v1",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) are increasingly deployed in real-world applications that require access to up-to-date knowledge. However, retraining LLMs is computationally expensive. Therefore, knowledge editing techniques are crucial for maintaining current information and correcting erroneous assertions within pre-trained models. Current benchmarks for knowledge editing primarily focus on recalling edited facts, often neglecting their logical consequences. To address this limitation, we introduce a new benchmark designed to evaluate how knowledge editing methods handle the logical consequence",
+  "authors": [
+   "Tatiana Moteu Ngoli",
+   "NDah Jean Kouagou",
+   "Hamada M. Zahera",
+   "Axel-Cyrille Ngonga Ngomo"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Cross-Lingual Knowledge Editing in Large Language Models",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2309.08952v2",
+  "cited_by": null,
+  "abstract": "Knowledge editing aims to change language models' performance on several special cases (i.e., editing scope) by infusing the corresponding expected knowledge into them. With the recent advancements in large language models (LLMs), knowledge editing has been shown as a promising technique to adapt LLMs to new knowledge without retraining from scratch. However, most of the previous studies neglect the multi-lingual nature of some main-stream LLMs (e.g., LLaMA, ChatGPT and GPT-4), and typically focus on monolingual scenarios, where LLMs are edited and evaluated in the same language. As a result, ",
+  "authors": [
+   "Jiaan Wang",
+   "Yunlong Liang",
+   "Zengkui Sun",
+   "Yuxuan Cao",
+   "Jiarong Xu",
+   "Fandong Meng"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Retrieval-augmented Multilingual Knowledge Editing",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2312.13040v1",
+  "cited_by": null,
+  "abstract": "Knowledge represented in Large Language Models (LLMs) is quite often incorrect and can also become obsolete over time. Updating knowledge via fine-tuning is computationally resource-hungry and not reliable, and so knowledge editing (KE) has developed as an effective and economical alternative to inject new knowledge or to fix factual errors in LLMs. Although there has been considerable interest in this area, current KE research exclusively focuses on the monolingual setting, typically in English. However, what happens if the new knowledge is supplied in one language, but we would like to query",
+  "authors": [
+   "Weixuan Wang",
+   "Barry Haddow",
+   "Alexandra Birch"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "Towards Meta-Cognitive Knowledge Editing for Multimodal LLMs",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2509.05714v1",
+  "cited_by": null,
+  "abstract": "Knowledge editing enables multimodal large language models (MLLMs) to efficiently update outdated or incorrect information. However, existing benchmarks primarily emphasize cognitive-level modifications while lacking a focus on deeper meta-cognitive processes. To bridge this gap, we introduce CogEdit, a novel benchmark designed to evaluate MLLMs' meta-cognitive knowledge editing abilities across three levels: (1) Counterfactual-Driven Editing, assessing self-awareness of knowledge correctness changes; (2) Boundary Constraint Editing, ensuring appropriate generalization without unintended inter",
+  "authors": [
+   "Zhaoyu Fan",
+   "Kaihang Pan",
+   "Mingze Zhou",
+   "Bosheng Qin",
+   "Juncheng Li",
+   "Shengyu Zhang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "edit_correct",
+  "query": "abs:\"knowledge editing\" AND abs:\"language model\" OR abs:\"model editing\" AND abs:\"fact\"",
+  "title": "KEditVis: A Visual Analytics System for Knowledge Editing of Large Language Models",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2603.29689v1",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) demonstrate exceptional capabilities in factual question answering, yet they sometimes provide incorrect responses. To address this issue, knowledge editing techniques have emerged as effective methods for correcting factual information in LLMs. However, typical knowledge editing workflows struggle with identifying the optimal set of model layers for editing and rely on summary indicators that provide insufficient guidance. This lack of transparency hinders effective comparison and identification of optimal editing strategies. In this paper, we present KEditVis, a ",
+  "authors": [
+   "Zhenning Chen",
+   "Hanbei Zhan",
+   "Yanwei Huang",
+   "Xin Wu",
+   "Dazhen Deng",
+   "Di Weng"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Machine Unlearning of Pre-trained Large Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2402.15159v3",
+  "cited_by": null,
+  "abstract": "This study investigates the concept of the `right to be forgotten' within the context of large language models (LLMs). We explore machine unlearning as a pivotal solution, with a focus on pre-trained models--a notably under-researched area. Our research delineates a comprehensive framework for machine unlearning in pre-trained LLMs, encompassing a critical analysis of seven diverse unlearning methods. Through rigorous evaluation using curated datasets from arXiv, books, and GitHub, we establish a robust benchmark for unlearning performance, demonstrating that these methods are over $10^5$ time",
+  "authors": [
+   "Jin Yao",
+   "Eli Chien",
+   "Minxin Du",
+   "Xinyao Niu",
+   "Tianhao Wang",
+   "Zezhou Cheng"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Deep Contrastive Unlearning for Language Models",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2503.14900v2",
+  "cited_by": null,
+  "abstract": "The past a few years have witnessed the great success of large language models, demonstrating powerful capabilities in comprehending textual data and generating human-like languages. Large language models achieve success by being trained on vast amounts of textual data, including online sources with copyrighted content and user-generated knowledge. However, this comes at a cost: the potential risk of exposing users' privacy and violating copyright protections. Thus, to safeguard individuals' \"right to be forgotten\", there has been increasing interests in machine unlearning -- the process of re",
+  "authors": [
+   "Estrid He",
+   "Tabinda Sarwar",
+   "Ibrahim Khalil",
+   "Xun Yi",
+   "Ke Wang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Machine Unlearning for Traditional Models and Large Language Models: A Short Survey",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2404.01206v1",
+  "cited_by": null,
+  "abstract": "With the implementation of personal data privacy regulations, the field of machine learning (ML) faces the challenge of the \"right to be forgotten\". Machine unlearning has emerged to address this issue, aiming to delete data and reduce its impact on models according to user requests. Despite the widespread interest in machine unlearning, comprehensive surveys on its latest advancements, especially in the field of Large Language Models (LLMs) is lacking. This survey aims to fill this gap by providing an in-depth exploration of machine unlearning, including the definition, classification and eva",
+  "authors": [
+   "Yi Xu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Recent Advances in Federated Learning Driven Large Language Models: A Survey on Architecture, Performance, and Security",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2406.09831v2",
+  "cited_by": null,
+  "abstract": "Federated Learning (FL) offers a promising paradigm for training Large Language Models (LLMs) in a decentralized manner while preserving data privacy and minimizing communication overhead. This survey examines recent advancements in FL-driven LLMs, with a particular emphasis on architectural designs, performance optimization, and security concerns, including the emerging area of machine unlearning. In this context, machine unlearning refers to the systematic removal of specific data contributions from trained models to comply with privacy regulations such as the Right to be Forgotten. We revie",
+  "authors": [
+   "Youyang Qu",
+   "Ming Liu",
+   "Tianqing Zhu",
+   "Longxiang Gao",
+   "Shui Yu",
+   "Wanlei Zhou"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "What Should LLMs Forget? Quantifying Personal Data in LLMs for Right-to-Be-Forgotten Requests",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2507.11128v1",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) can memorize and reveal personal information, raising concerns regarding compliance with the EU's GDPR, particularly the Right to Be Forgotten (RTBF). Existing machine unlearning methods assume the data to forget is already known but do not address how to identify which individual-fact associations are stored in the model. Privacy auditing techniques typically operate at the population level or target a small set of identifiers, limiting applicability to individual-level data inquiries. We introduce WikiMem, a dataset of over 5,000 natural language canaries coverin",
+  "authors": [
+   "Dimitri Staufer"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "RKLD: Reverse KL-Divergence-based Knowledge Distillation for Unlearning Personal Information in Large Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2406.01983v1",
+  "cited_by": null,
+  "abstract": "With the passage of the Right to Be Forgotten (RTBF) regulations and the scaling up of language model training datasets, research on model unlearning in large language models (LLMs) has become more crucial. Before the era of LLMs, machine unlearning research focused mainly on classification tasks in models with small parameters. In these tasks, the content to be forgotten or retained is clear and straightforward. However, as parameter sizes have grown and tasks have become more complex, balancing forget quality and model utility has become more challenging, especially in scenarios involving pe",
+  "authors": [
+   "Bichen Wang",
+   "Yuzhe Zi",
+   "Yixin Sun",
+   "Yanyan Zhao",
+   "Bing Qin"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "AUVIC: Adversarial Unlearning of Visual Concepts for Multi-modal Large Language Models",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2511.11299v1",
+  "cited_by": null,
+  "abstract": "Multimodal Large Language Models (MLLMs) achieve impressive performance once optimized on massive datasets. Such datasets often contain sensitive or copyrighted content, raising significant data privacy concerns. Regulatory frameworks mandating the 'right to be forgotten' drive the need for machine unlearning. This technique allows for the removal of target data without resource-consuming retraining. However, while well-studied for text, visual concept unlearning in MLLMs remains underexplored. A primary challenge is precisely removing a target visual concept without disrupting model performan",
+  "authors": [
+   "Haokun Chen",
+   "Jianing Li",
+   "Yao Zhang",
+   "Jinhe Bi",
+   "Yan Xia",
+   "Jindong Gu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Textual Unlearning Gives a False Sense of Unlearning",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2406.13348v3",
+  "cited_by": null,
+  "abstract": "Language Models (LMs) are prone to ''memorizing'' training data, including substantial sensitive user information. To mitigate privacy risks and safeguard the right to be forgotten, machine unlearning has emerged as a promising approach for enabling LMs to efficiently ''forget'' specific texts. However, despite the good intentions, is textual unlearning really as effective and reliable as expected? To address the concern, we first propose Unlearning Likelihood Ratio Attack+ (U-LiRA+), a rigorous textual unlearning auditing method, and find that unlearned texts can still be detected with very h",
+  "authors": [
+   "Jiacheng Du",
+   "Zhibo Wang",
+   "Jie Zhang",
+   "Xiaoyi Pang",
+   "Jiahui Hu",
+   "Kui Ren"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "FROC: A Unified Framework with Risk-Optimized Control for Machine Unlearning in LLMs",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2512.13337v1",
+  "cited_by": null,
+  "abstract": "Machine unlearning (MU) seeks to eliminate the influence of specific training examples from deployed models. As large language models (LLMs) become widely used, managing risks arising from insufficient forgetting or utility loss is increasingly crucial. Current MU techniques lack effective mechanisms for evaluating and controlling these risks, hindering the selection of strategies that appropriately balance safety and utility, and raising trust concerns surrounding the \"right to be forgotten.\" To address these issues, we propose FROC, a unified framework with Risk-Optimized Control for machine",
+  "authors": [
+   "Si Qi Goh",
+   "Yongsen Zheng",
+   "Ziyao Liu",
+   "Sami Hormi",
+   "Kwok-Yan Lam"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Benchmarking Vision Language Model Unlearning via Fictitious Facial Identity Dataset",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2411.03554v3",
+  "cited_by": null,
+  "abstract": "Machine unlearning has emerged as an effective strategy for forgetting specific information in the training data. However, with the increasing integration of visual data, privacy concerns in Vision Language Models (VLMs) remain underexplored. To address this, we introduce Facial Identity Unlearning Benchmark (FIUBench), a novel VLM unlearning benchmark designed to robustly evaluate the effectiveness of unlearning algorithms under the Right to be Forgotten setting. Specifically, we formulate the VLM unlearning task via constructing the Fictitious Facial Identity VQA dataset and apply a two-stag",
+  "authors": [
+   "Yingzi Ma",
+   "Jiongxiao Wang",
+   "Fei Wang",
+   "Siyuan Ma",
+   "Jiazhao Li",
+   "Jinsheng Pan"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Right to be Forgotten in the Era of Large Language Models: Implications, Challenges, and Solutions",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2307.03941v4",
+  "cited_by": null,
+  "abstract": "The Right to be Forgotten (RTBF) was first established as the result of the ruling of Google Spain SL, Google Inc. v AEPD, Mario Costeja Gonz\u00e1lez, and was later included as the Right to Erasure under the General Data Protection Regulation (GDPR) of European Union to allow individuals the right to request personal data be deleted by organizations. Specifically for search engines, individuals can send requests to organizations to exclude their information from the query results. It was a significant emergent right as the result of the evolution of technology. With the recent development of Large",
+  "authors": [
+   "Dawen Zhang",
+   "Pamela Finckenberg-Broman",
+   "Thong Hoang",
+   "Shidong Pan",
+   "Zhenchang Xing",
+   "Mark Staples"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Towards Unveiling Vulnerabilities of Large Reasoning Models in Machine Unlearning",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2604.04255v1",
+  "cited_by": null,
+  "abstract": "Large language models (LLMs) possess strong semantic understanding, driving significant progress in data mining applications. This is further enhanced by large reasoning models (LRMs), which provide explicit multi-step reasoning traces. On the other hand, the growing need for the right to be forgotten has driven the development of machine unlearning techniques, which aim to eliminate the influence of specific data from trained models without full retraining. However, unlearning may also introduce new security vulnerabilities by exposing additional interaction surfaces. Although many studies ha",
+  "authors": [
+   "Aobo Chen",
+   "Chenxu Zhao",
+   "Chenglin Miao",
+   "Mengdi Huai"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "In-Context Unlearning: Language Models as Few Shot Unlearners",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2310.07579v4",
+  "cited_by": null,
+  "abstract": "Machine unlearning, the study of efficiently removing the impact of specific training instances on a model, has garnered increased attention in recent years due to regulatory guidelines such as the \\emph{Right to be Forgotten}. Achieving precise unlearning typically involves fully retraining the model and is computationally infeasible in case of very large models such as Large Language Models (LLMs). To this end, recent work has proposed several algorithms which approximate the removal of training data without retraining the model. These algorithms crucially rely on access to the model paramet",
+  "authors": [
+   "Martin Pawelczyk",
+   "Seth Neel",
+   "Himabindu Lakkaraju"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Single Image Unlearning: Efficient Machine Unlearning in Multimodal Large Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2405.12523v3",
+  "cited_by": null,
+  "abstract": "Machine unlearning empowers individuals with the `right to be forgotten' by removing their private or sensitive information encoded in machine learning models. However, it remains uncertain whether MU can be effectively applied to Multimodal Large Language Models (MLLMs), particularly in scenarios of forgetting the leaked visual data of concepts. To overcome the challenge, we propose an efficient method, Single Image Unlearning (SIU), to unlearn the visual recognition of a concept by fine-tuning a single associated image for few steps. SIU consists of two key aspects: (i) Constructing Multifac",
+  "authors": [
+   "Jiaqi Li",
+   "Qianshan Wei",
+   "Chuanyi Zhang",
+   "Guilin Qi",
+   "Miaozeng Du",
+   "Yongrui Chen"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "MeGU: Machine-Guided Unlearning with Target Feature Disentanglement",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2602.17088v1",
+  "cited_by": null,
+  "abstract": "The growing concern over training data privacy has elevated the \"Right to be Forgotten\" into a critical requirement, thereby raising the demand for effective Machine Unlearning. However, existing unlearning approaches commonly suffer from a fundamental trade-off: aggressively erasing the influence of target data often degrades model utility on retained data, while conservative strategies leave residual target information intact. In this work, the intrinsic representation properties learned during model pretraining are analyzed. It is demonstrated that semantic class concepts are entangled at t",
+  "authors": [
+   "Haoyu Wang",
+   "Zhuo Huang",
+   "Xiaolong Wang",
+   "Bo Han",
+   "Zhiwei Lin",
+   "Tongliang Liu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Towards Machine Unlearning Benchmarks: Forgetting the Personal Identities in Facial Recognition Systems",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2311.02240v2",
+  "cited_by": null,
+  "abstract": "Machine unlearning is a crucial tool for enabling a classification model to forget specific data that are used in the training time. Recently, various studies have presented machine unlearning algorithms and evaluated their methods on several datasets. However, most of the current machine unlearning algorithms have been evaluated solely on traditional computer vision datasets such as CIFAR-10, MNIST, and SVHN. Furthermore, previous studies generally evaluate the unlearning methods in the class-unlearning setup. Most previous work first trains the classification models and then evaluates the ma",
+  "authors": [
+   "Dasol Choi",
+   "Dongbin Na"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Position: Bridge the Gaps between Machine Unlearning and AI Regulation",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2502.12430v2",
+  "cited_by": null,
+  "abstract": "The ''right to be forgotten'' and the data privacy laws that encode it have motivated machine unlearning since its earliest days. Now, some argue that an inbound wave of artificial intelligence regulations -- like the European Union's Artificial Intelligence Act (AIA) -- may offer important new use cases for machine unlearning. However, this position paper argues, this opportunity will only be realized if researchers proactively bridge the (sometimes sizable) gaps between machine unlearning's state of the art and its potential applications to AI regulation. To demonstrate this point, we use th",
+  "authors": [
+   "Bill Marino",
+   "Meghdad Kurmanji",
+   "Nicholas D. Lane"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "A Survey on Machine Unlearning: Techniques and New Emerged Privacy Risks",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2406.06186v1",
+  "cited_by": null,
+  "abstract": "The explosive growth of machine learning has made it a critical infrastructure in the era of artificial intelligence. The extensive use of data poses a significant threat to individual privacy. Various countries have implemented corresponding laws, such as GDPR, to protect individuals' data privacy and the right to be forgotten. This has made machine unlearning a research hotspot in the field of privacy protection in recent years, with the aim of efficiently removing the contribution and impact of individual data from trained models. The research in academia on machine unlearning has continuou",
+  "authors": [
+   "Hengzhu Liu",
+   "Ping Xiong",
+   "Tianqing Zhu",
+   "Philip S. Yu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Verification of Machine Unlearning is Fragile",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2408.00929v2",
+  "cited_by": null,
+  "abstract": "As privacy concerns escalate in the realm of machine learning, data owners now have the option to utilize machine unlearning to remove their data from machine learning models, following recent legislation. To enhance transparency in machine unlearning and avoid potential dishonesty by model providers, various verification strategies have been proposed. These strategies enable data owners to ascertain whether their target data has been effectively unlearned from the model. However, our understanding of the safety issues of machine unlearning verification remains nascent. In this paper, we explo",
+  "authors": [
+   "Binchi Zhang",
+   "Zihan Chen",
+   "Cong Shen",
+   "Jundong Li"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "On the Limitations and Prospects of Machine Unlearning for Generative AI",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2408.00376v1",
+  "cited_by": null,
+  "abstract": "Generative AI (GenAI), which aims to synthesize realistic and diverse data samples from latent variables or other data modalities, has achieved remarkable results in various domains, such as natural language, images, audio, and graphs. However, they also pose challenges and risks to data privacy, security, and ethics. Machine unlearning is the process of removing or weakening the influence of specific data samples or features from a trained model, without affecting its performance on other data or tasks. While machine unlearning has shown significant efficacy in traditional machine learning ta",
+  "authors": [
+   "Shiji Zhou",
+   "Lianzhe Wang",
+   "Jiangnan Ye",
+   "Yongliang Wu",
+   "Heng Chang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "The Frontier of Data Erasure: Machine Unlearning for Large Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2403.15779v1",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) are foundational to AI advancements, facilitating applications like predictive text generation. Nonetheless, they pose risks by potentially memorizing and disseminating sensitive, biased, or copyrighted information from their vast datasets. Machine unlearning emerges as a cutting-edge solution to mitigate these concerns, offering techniques for LLMs to selectively discard certain data. This paper reviews the latest in machine unlearning for LLMs, introducing methods for the targeted forgetting of information to address privacy, ethical, and legal challenges without",
+  "authors": [
+   "Youyang Qu",
+   "Ming Ding",
+   "Nan Sun",
+   "Kanchana Thilakarathna",
+   "Tianqing Zhu",
+   "Dusit Niyato"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Instance-Level Difficulty: A Missing Perspective in Machine Unlearning",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2410.03043v3",
+  "cited_by": null,
+  "abstract": "Current research on deep machine unlearning primarily focuses on improving or evaluating the overall effectiveness of unlearning methods while overlooking the varying difficulty of unlearning individual training samples. As a result, the broader feasibility of machine unlearning remains under-explored. This paper studies the cruxes that make machine unlearning difficult through a thorough instance-level unlearning performance analysis over various unlearning algorithms and datasets. In particular, we summarize four factors that make unlearning a data point difficult, and we empirically show th",
+  "authors": [
+   "Hammad Rizwan",
+   "Mahtab Sarvmaili",
+   "Hassan Sajjad",
+   "Ga Wu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Open Knowledge Base Canonicalization with Multi-task Unlearning",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2310.16419v1",
+  "cited_by": null,
+  "abstract": "The construction of large open knowledge bases (OKBs) is integral to many applications in the field of mobile computing. Noun phrases and relational phrases in OKBs often suffer from redundancy and ambiguity, which calls for the investigation on OKB canonicalization. However, in order to meet the requirements of some privacy protection regulations and to ensure the timeliness of the data, the canonicalized OKB often needs to remove some sensitive information or outdated data. The machine unlearning in OKB canonicalization is an excellent solution to the above problem. Current solutions address",
+  "authors": [
+   "Bingchen Liu",
+   "Shihao Hou",
+   "Weixin Zeng",
+   "Xiang Zhao",
+   "Shijun Liu",
+   "Li Pan"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Dataset Condensation Driven Machine Unlearning",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2402.00195v2",
+  "cited_by": null,
+  "abstract": "The current trend in data regulation requirements and privacy-preserving machine learning has emphasized the importance of machine unlearning. The naive approach to unlearning training data by retraining over the complement of the forget samples is susceptible to computational challenges. These challenges have been effectively addressed through a collection of techniques falling under the umbrella of machine unlearning. However, there still exists a lack of sufficiency in handling persistent computational challenges in harmony with the utility and privacy of unlearned model. We attribute this ",
+  "authors": [
+   "Junaid Iqbal Khan"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Machine Unlearning in Contrastive Learning",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2405.07317v1",
+  "cited_by": null,
+  "abstract": "Machine unlearning is a complex process that necessitates the model to diminish the influence of the training data while keeping the loss of accuracy to a minimum. Despite the numerous studies on machine unlearning in recent years, the majority of them have primarily focused on supervised learning models, leaving research on contrastive learning models relatively underexplored. With the conviction that self-supervised learning harbors a promising potential, surpassing or rivaling that of supervised learning, we set out to investigate methods for machine unlearning centered around contrastive l",
+  "authors": [
+   "Zixin Wang",
+   "Kongyang Chen"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Evaluating Machine Unlearning via Epistemic Uncertainty",
+  "year": 2022,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2208.10836v2",
+  "cited_by": null,
+  "abstract": "There has been a growing interest in Machine Unlearning recently, primarily due to legal requirements such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act. Thus, multiple approaches were presented to remove the influence of specific target data points from a trained model. However, when evaluating the success of unlearning, current approaches either use adversarial attacks or compare their results to the optimal solution, which usually incorporates retraining from scratch. We argue that both ways are insufficient in practice. In this work, we present an",
+  "authors": [
+   "Alexander Becker",
+   "Thomas Liebig"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Lifting Data-Tracing Machine Unlearning to Knowledge-Tracing for Foundation Models",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2506.11253v2",
+  "cited_by": null,
+  "abstract": "Machine unlearning removes certain training data points and their influence from AI models (e.g., when a data owner revokes their consent to allow models to learn from the data). In this position paper, we propose to lift data-tracing machine unlearning to knowledge-tracing for foundation models (FMs). We support this position based on practical needs and insights from cognitive studies. Practically, tracing data cannot meet the diverse unlearning requests for FMs, which may be from regulators, enterprise users, product teams, etc., who have no access to FMs' massive training data. Instead, it",
+  "authors": [
+   "Yuwen Tan",
+   "Boqing Gong"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Forgetting Similar Samples: Can Machine Unlearning Do it Better?",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2601.06938v1",
+  "cited_by": null,
+  "abstract": "Machine unlearning, a process enabling pre-trained models to remove the influence of specific training samples, has attracted significant attention in recent years. Although extensive research has focused on developing efficient machine unlearning strategies, we argue that these methods mainly aim at removing samples rather than removing samples' influence on the model, thus overlooking the fundamental definition of machine unlearning. In this paper, we first conduct a comprehensive study to evaluate the effectiveness of existing unlearning schemes when the training dataset includes many sampl",
+  "authors": [
+   "Heng Xu",
+   "Tianqing Zhu",
+   "Dayong Ye",
+   "Lefeng Zhang",
+   "Le Wang",
+   "Wanlei Zhou"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Machine Unlearning for Causal Inference",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2308.13559v1",
+  "cited_by": null,
+  "abstract": "Machine learning models play a vital role in making predictions and deriving insights from data and are being increasingly used for causal inference. To preserve user privacy, it is important to enable the model to forget some of its learning/captured information about a given user (machine unlearning). This paper introduces the concept of machine unlearning for causal inference, particularly propensity score matching and treatment effect estimation, which aims to refine and improve the performance of machine learning models for causal analysis given the above unlearning requirements. The pape",
+  "authors": [
+   "Vikas Ramachandra",
+   "Mohit Sethi"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "forget",
+  "query": "abs:\"machine unlearning\" OR abs:\"right to be forgotten\" AND abs:\"language model\"",
+  "title": "Towards Irreversible Machine Unlearning for Diffusion Models",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2512.03564v1",
+  "cited_by": null,
+  "abstract": "Diffusion models are renowned for their state-of-the-art performance in generating synthetic images. However, concerns related to safety, privacy, and copyright highlight the need for machine unlearning, which can make diffusion models forget specific training data and prevent the generation of sensitive or unwanted content. Current machine unlearning methods for diffusion models are primarily designed for conditional diffusion models and focus on unlearning specific data classes or features. Among these methods, finetuning-based machine unlearning methods are recognized for their efficiency a",
+  "authors": [
+   "Xun Yuan",
+   "Zilong Zhao",
+   "Jiayu Li",
+   "Aryan Pasikhani",
+   "Prosanta Gope",
+   "Biplab Sikdar"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "AuthGuard-R: Safety-Compliant Mission Hijacking and Dual-Gate Defense for LLM-Controlled Robots",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2609.31110v1",
+  "cited_by": null,
+  "abstract": "Large language models are increasingly used as high-level planners for mobile robots, robot manipulators, and autonomous vehicles. Recent studies show that these systems can be influenced through malicious text, speech, visual instructions, retrieved documents, and poisoned sensory context. Most defenses ask whether a proposed action is physically safe. This paper studies a different problem: an action may be physically safe and still violate the mission authorized by the user. An attacker may redirect a delivery robot, replace an approved object, extend a robot's operating region, activate an",
+  "authors": [
+   "Saidattu Chepuri",
+   "Vikas Srivastava"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "LLM Agents for Interactive Workflow Provenance: Reference Architecture and Evaluation Methodology",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2509.13978v2",
+  "cited_by": null,
+  "abstract": "Modern scientific discovery increasingly relies on workflows that process data across the Edge, Cloud, and High Performance Computing (HPC) continuum. Comprehensive and in-depth analyses of these data are critical for hypothesis validation, anomaly detection, reproducibility, and impactful findings. Although workflow provenance techniques support such analyses, at large scale, the provenance data become complex and difficult to analyze. Existing systems depend on custom scripts, structured queries, or static dashboards, limiting data interaction. In this work, we introduce an evaluation method",
+  "authors": [
+   "Renan Souza",
+   "Timothy Poteet",
+   "Brian Etz",
+   "Daniel Rosendo",
+   "Amal Gueroudji",
+   "Woong Shin"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "GaussTrace: Provenance Analysis of 3D Gaussian Splatting Models with Evidence-based LLM Reasoning",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2606.10612v1",
+  "cited_by": null,
+  "abstract": "3D Gaussian Splatting (3DGS) is a powerful technique for creating high-fidelity 3D assets. However, the widespread sharing and iterative modification of 3DGS models across digital platforms create pressing challenges for intellectual property protection and forensic traceability. To address this, we propose GaussTrace, a novel framework for constructing directed provenance graphs for 3DGS models. GaussTrace formulates provenance analysis as an evidence-based reasoning problem. It builds upon attribute-wise statistical profiling of 3DGS parameters to capture intrinsic properties. Moreover, we i",
+  "authors": [
+   "Haoliang Han",
+   "Ziyuan Luo",
+   "Renjie Wan"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "PROV-AGENT: Unified Provenance for Tracking AI Agent Interactions in Agentic Workflows",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2508.02866v3",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) and other foundation models are increasingly used as the core of AI agents. In agentic workflows, these agents plan tasks, interact with humans and peers, and influence scientific outcomes across federated and heterogeneous environments. However, agents can hallucinate or reason incorrectly, propagating errors when one agent's output becomes another's input. Thus, assuring that agents' actions are transparent, traceable, reproducible, and reliable is critical to assess hallucination risks and mitigate their workflow impacts. While provenance techniques have long su",
+  "authors": [
+   "Renan Souza",
+   "Amal Gueroudji",
+   "Stephen DeWitt",
+   "Daniel Rosendo",
+   "Tirthankar Ghosal",
+   "Robert Ross"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2606.04990v6",
+  "cited_by": null,
+  "abstract": "Large language model (LLM)-based agents are moving beyond text generation to planning, tool use, retrieval, memory access, environmental interaction, and multi-agent collaboration. Because their outputs depend on information and execution steps across an agent run, their execution processes are difficult to verify, debug, and audit. Even a correct final answer does not reveal which evidence supported its claims, whether tool calls were justified, how memory shaped decisions, or where execution failures originated. Relevant research addresses these questions across evidence attribution, tool-us",
+  "authors": [
+   "Yiqi Wang",
+   "Jiaqi Zhang",
+   "Zhangkai Wu",
+   "Taotao Cai",
+   "Zirui Liu",
+   "Zequn Sun"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Bolt-on, Verifiable Provenance for LLM-Powered Data Processing",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.25210v2",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) are powerful tools for processing data. However, LLMs are also complex black-boxes, returning answers to queries on data, without any indication for where the answer came from or whether it is trustworthy. We introduce the notion of provenance for data processing with LLMs. While existing heuristics (such as embedding similarity or directly asking an LLM) could provide some hints for where the answer was derived, they provide no guarantees that the answer can be derived using the identified provenance, and indeed, are often incorrect. Instead, we propose the notion",
+  "authors": [
+   "Yiming Lin",
+   "Sepanta Zeighami",
+   "Aditya G. Parameswaran"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "An End-to-End Framework for Functionality-Embedded Provenance Graph Construction and Threat Interpretation",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2603.17100v1",
+  "cited_by": null,
+  "abstract": "Provenance graphs model causal system-level interactions from logs, enabling anomaly detectors to learn normal behavior and detect deviations as attacks. However, existing approaches rely on brittle, manually engineered rules to build provenance graphs, lack functional context for system entities, and provide limited support for analyst investigation. We present Auto-Prov, an adaptive, end-to-end framework that leverages large language models (LLMs) to automatically construct provenance graphs from heterogeneous and evolving logs, embed system-level functional attributes into the graph, enable",
+  "authors": [
+   "Kushankur Ghosh",
+   "Mehar Klair",
+   "Kian Kyars",
+   "Euijin Choo",
+   "J\u00f6rg Sander"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Co-constructing Explanations for AI Systems using Provenance",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2507.17761v1",
+  "cited_by": null,
+  "abstract": "Modern AI systems are complex workflows containing multiple components and data sources. Data provenance provides the ability to interrogate and potentially explain the outputs of these systems. However, provenance is often too detailed and not contextualized for the user trying to understand the AI system. In this work, we present our vision for an interactive agent that works together with the user to co-construct an explanation that is simultaneously useful to the user as well as grounded in data provenance. To illustrate this vision, we present: 1) an initial prototype of such an agent; an",
+  "authors": [
+   "Jan-Christoph Kalo",
+   "Fina Polat",
+   "Shubha Guha",
+   "Paul Groth"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Origin Is All You Need: Provenance-Aware Transformers for Structural Trust-Boundary Separation",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2609.21088v1",
+  "cited_by": null,
+  "abstract": "Indirect prompt injection (IPI) remains a central safety and security challenge for large language model (LLM) systems because standard transformers lack architectural notion of source authority. Retrieved documents, user inputs, and system instructions are all processed through the same undifferentiated attention mechanism, forcing the model to infer from wording alone what should be obeyed and what should be treated as data. We propose Provenance-Aware Transformers, a provenance-aware defense that makes application-supplied source labels actionable inside the model. Each input token is assig",
+  "authors": [
+   "Yuxuan Zhang",
+   "Jeff Huang",
+   "Guofei Gu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Memory Provenance Laundering in LLM Agents: A Non-Amplification Firewall for Persistent Memory",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2607.29167v1",
+  "cited_by": null,
+  "abstract": "Long-term memory lets large language model(LLM) agents reuse prior preferences and work flows, but it also turns untrusted observations into persistent action context. We identify memory provenance laundering: during LLM-based memory consolidation, an external observation may be rewritten as apparent user history or workflow support, preserving an action trigger while erasing the low-trust source that should limit its authority. Existing prompt filters, content sanitizers, and tool guards do not enforce source-authority non-amplification after lossy memory consolidation. We formalize this boun",
+  "authors": [
+   "Jinghan Xu",
+   "Yiyong Xiao",
+   "Wanru Shao",
+   "Hankai Liu",
+   "Xinjin Li"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Data Citation for Large Language Models: A Challenge",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.25663v1",
+  "cited_by": null,
+  "abstract": "Large language models increasingly mediate access to information, and a growing body of work asks whether they cite the sources behind their outputs. That work treats citation as a verification device and applies it to textual documents. Scholarly citation serves two further functions, credit and provenance, and it applies to data as much as to text. This paper argues that data citation for large language models is an open challenge, distinct from document-level citation grounding and harder to solve. We ask how such models should cite data so that outputs stay verifiable, provenance stays tra",
+  "authors": [
+   "Gianmaria Silvello"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Llamazip: Leveraging LLaMA for Lossless Text Compression and Training Dataset Detection",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2511.17589v1",
+  "cited_by": null,
+  "abstract": "This work introduces Llamazip, a novel lossless text compression algorithm based on the predictive capabilities of the LLaMA3 language model. Llamazip achieves significant data reduction by only storing tokens that the model fails to predict, optimizing storage efficiency without compromising data integrity. Key factors affecting its performance, including quantization and context window size, are analyzed, revealing their impact on compression ratios and computational requirements. Beyond compression, Llamazip demonstrates the potential to identify whether a document was part of the training ",
+  "authors": [
+   "S\u00f6ren Dr\u00e9ano",
+   "Derek Molloy",
+   "Noel Murphy"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Qlippy: A Retrieval-Augmented GenAI Assistant for Reproducible Quantum Workflows and Experiment Tracking",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2609.05039v1",
+  "cited_by": null,
+  "abstract": "Quantum software development is iterative and error-prone. Noisy hardware and repeated re-execution make experiment tracking, provenance, and reproducibility essential, yet these practices are hard to adopt because of tooling complexity and the specialized knowledge they demand. General-purpose language models can help but tend to hallucinate and lack grounding in domain-specific tooling. We present Qlippy, a retrieval-augmented GenAI assistant embedded in the development environment that grounds its responses in a curated corpus of quantum-software-engineering knowledge. Qlippy explains repro",
+  "authors": [
+   "Mahee Gamage",
+   "Vlad Stirbu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "APT-CGLP: Advanced Persistent Threat Hunting via Contrastive Graph-Language Pre-Training",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2511.20290v2",
+  "cited_by": null,
+  "abstract": "Provenance-based threat hunting identifies Advanced Persistent Threats (APTs) on endpoints by correlating attack patterns described in Cyber Threat Intelligence (CTI) with provenance graphs derived from system audit logs. A fundamental challenge in this paradigm lies in the modality gap -- the structural and semantic disconnect between provenance graphs and CTI reports. Prior work addresses this by framing threat hunting as a graph matching task: 1) extracting attack graphs from CTI reports, and 2) aligning them with provenance graphs. However, this pipeline incurs severe \\textit{information l",
+  "authors": [
+   "Xuebo Qiu",
+   "Mingqi Lv",
+   "Yimei Zhang",
+   "Tieming Chen",
+   "Tiantian Zhu",
+   "Qijie Song"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "GenProve: Learning to Generate Text with Fine-Grained Provenance",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2601.04932v2",
+  "cited_by": null,
+  "abstract": "Large language models (LLM) often hallucinate, and while adding citations is a common solution, it is frequently insufficient for accountability as users struggle to verify how a cited source supports a generated claim. Existing methods are typically coarse-grained and fail to distinguish between direct quotes and complex reasoning. In this paper, we introduce Generation-time Fine-grained Provenance, a task where models must generate fluent answers while simultaneously producing structured, sentence-level provenance triples. To enable this, we present ReFInE (Relation-aware Fine-grained Interp",
+  "authors": [
+   "Jingxuan Wei",
+   "Xingyue Wang",
+   "Yanghaoyu Liao",
+   "Jie Dong",
+   "Yuchen Liu",
+   "Caijun Jia"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Reimagining Retrieval Augmented Language Models for Answering Queries",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2306.01061v1",
+  "cited_by": null,
+  "abstract": "We present a reality check on large language models and inspect the promise of retrieval augmented language models in comparison. Such language models are semi-parametric, where models integrate model parameters and knowledge from external data sources to make their predictions, as opposed to the parametric nature of vanilla large language models. We give initial experimental findings that semi-parametric architectures can be enhanced with views, a query analyzer/planner, and provenance to make a significantly more powerful system for question answering in terms of accuracy and efficiency, and",
+  "authors": [
+   "Wang-Chiew Tan",
+   "Yuliang Li",
+   "Pedro Rodriguez",
+   "Richard James",
+   "Xi Victoria Lin",
+   "Alon Halevy"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Data Provenance for Image Auto-Regressive Generation",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2606.28386v1",
+  "cited_by": null,
+  "abstract": "Image autoregressive models (IARs) have recently demonstrated remarkable capabilities in visual content generation, achieving photorealistic quality and rapid synthesis through the next-token prediction paradigm adapted from large language models. As these models become widely accessible, robust data provenance is required to reliably trace IAR-generated images to the source model that synthesized them. This is critical to prevent the spread of misinformation, detect fraud, and attribute harmful content. We find that although IAR-generated images often appear visually identical to real images,",
+  "authors": [
+   "Bihe Zhao",
+   "Louis Kerner",
+   "Michel Meintz",
+   "Tameem Bakr",
+   "Franziska Boenisch",
+   "Adam Dziedzic"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "ScrollTimes: Tracing the Provenance of Paintings as a Window into History",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2306.08834v2",
+  "cited_by": null,
+  "abstract": "The study of cultural artifact provenance, tracing ownership and preservation, holds significant importance in archaeology and art history. Modern technology has advanced this field, yet challenges persist, including recognizing evidence from diverse sources, integrating sociocultural context, and enhancing interactive automation for comprehensive provenance analysis. In collaboration with art historians, we examined the handscroll, a traditional Chinese painting form that provides a rich source of historical data and a unique opportunity to explore history through cultural artifacts. We prese",
+  "authors": [
+   "Wei Zhang",
+   "Wong Kam-Kwai",
+   "Yitian Chen",
+   "Ailing Jia",
+   "Luwei Wang",
+   "Jian-Wei Zhang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "TRACER: Verifiable Generative Provenance for Multimodal Tool-Using Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.09934v1",
+  "cited_by": null,
+  "abstract": "Multimodal large language models increasingly solve vision-centric tasks by calling external tools for visual inspection, OCR, retrieval, calculation, and multi-step reasoning. Current tool-using agents usually expose the executed tool trajectory and the final answer, but they rarely specify which tool observation supports each generated claim. We call this missing claim-level dependency structure the provenance gap. The gap makes tool use hard to verify and hard to optimize, because useful evidence, redundant exploration, and unsupported reasoning are mixed in the same trajectory. We introduc",
+  "authors": [
+   "Bihui Yu",
+   "Caijun Jia",
+   "Jing Chi",
+   "Xiaohan Liu",
+   "Yining Wang",
+   "He Bai"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "TractorBeam: Personalized AI Sensemaking Support via Collaborative Machine Annotation",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.18994v2",
+  "cited_by": null,
+  "abstract": "Language model-based systems which allow asking questions of documents have become popular tools for sensemaking. Despite their implied capability, these systems still suffer from issues of factuality and provenance, while encouraging confirmatory, rather than exploratory, research. We present TractorBeam, a browser extension-based mixed-initiative system that uses collaborative annotation as an interface metaphor for sensemaking, re-framing language model (LM) outputs as suggested highlights in a process that we call collaborative machine annotation. This metaphor allows us to present LM resu",
+  "authors": [
+   "Sireesh Gururaja",
+   "Jordan Taylor",
+   "Emma Strubell"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "FiD-Light: Efficient and Effective Retrieval-Augmented Text Generation",
+  "year": 2022,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2209.14290v1",
+  "cited_by": null,
+  "abstract": "Retrieval-augmented generation models offer many benefits over standalone language models: besides a textual answer to a given query they provide provenance items retrieved from an updateable knowledge base. However, they are also more complex systems and need to handle long inputs. In this work, we introduce FiD-Light to strongly increase the efficiency of the state-of-the-art retrieval-augmented FiD model, while maintaining the same level of effectiveness. Our FiD-Light model constrains the information flow from the encoder (which encodes passages separately) to the decoder (using concatenat",
+  "authors": [
+   "Sebastian Hofst\u00e4tter",
+   "Jiecao Chen",
+   "Karthik Raman",
+   "Hamed Zamani"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.14929v2",
+  "cited_by": null,
+  "abstract": "Open-weight language models are fine-tuned, quantized, pruned, and merged, yet their provenance is often undocumented. We study data-free white-box lineage verification: can weights alone reveal whether two compatible model checkpoints share ancestry? Residual training produces a shared identity-aligned component in branch products, so this structure alone cannot establish ancestry. We remove it and compare checkpoint-specific structure across residual blocks, yielding a symmetric lineage score calibrated against independent checkpoints. On residual-MLP and GPT-2 benchmarks, the score separate",
+  "authors": [
+   "Aman Singh Thakur",
+   "Rayan Khoury"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "STEMMA: Song-to-Stem Multi-Audio Reasoning for Large Audio Language Models",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2610.11884v1",
+  "cited_by": null,
+  "abstract": "Music understanding often requires comparing excerpts and reasoning about relationships among songs, sections, and stems. However, existing large audio-language models (LALMs) and music question-answering datasets typically operate on single recordings or compare independently sampled tracks with no known production relationship. We introduce STEMMA, a multi-audio music question-answering framework built around production provenance: whether excerpts originate from the same track or section, and which stems belong to which mixtures. Because such relations are sparse under conventional audio-fi",
+  "authors": [
+   "Hoyeol Sohn",
+   "Wonil Kim",
+   "Keunhyoung Kim",
+   "Sangeun Kum",
+   "Taehyoung Kim",
+   "Dongjoo Moon"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "ProvMind: Provenance-grounded reasoning for materials synthesis",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.28487v1",
+  "cited_by": null,
+  "abstract": "Materials process optimization requires reasoning over routes, conditions, tools and causal dependencies, yet most computational formulations flatten synthesis procedures into text or ordered steps. We introduce MatProcBench, a provenance-grounded benchmark constructed from literature-mined MatPROV graphs, to evaluate seven process-reasoning tasks spanning route continuity, step-level variable inference and global causal consistency under both same-split and shift-aware evaluation, including a strict dual-OOD split that combines temporal and material-class shift. We further introduce ProvMind,",
+  "authors": [
+   "Yiming Zhang",
+   "Ryo Tamura",
+   "Koji Tsuda"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "CyberClear: A Benchmark for LLM Agent Systems on APT Attack Chain Provenance",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2609.32424v1",
+  "cited_by": null,
+  "abstract": "Large language model agents have demonstrated promising capabilities in cybersecurity tasks, yet their ability to reconstruct complete Advanced Persistent Threat attack campaigns from complex security logs remains largely unexplored. Existing cybersecurity benchmarks for agents mainly focus on vulnerability discovery, exploitation, and security analysis tasks, leaving the evaluation of attack chain provenance under realistic security logs insufficiently studied. To address this gap, we introduce CyberClear, a benchmark for evaluating LLM agents and advanced agent systems on APT attack chain pr",
+  "authors": [
+   "Qi Chen",
+   "Fushuo Huo",
+   "Hangli Shen",
+   "Jingcai Guo",
+   "Shuhao Li",
+   "Guang Cheng"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Watermark Robustness and Radioactivity May Be at Odds in Federated Learning",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2510.17033v1",
+  "cited_by": null,
+  "abstract": "Federated learning (FL) enables fine-tuning large language models (LLMs) across distributed data sources. As these sources increasingly include LLM-generated text, provenance tracking becomes essential for accountability and transparency. We adapt LLM watermarking for data provenance in FL where a subset of clients compute local updates on watermarked data, and the server averages all updates into the global LLM. In this setup, watermarks are radioactive: the watermark signal remains detectable after fine-tuning with high confidence. The $p$-value can reach $10^{-24}$ even when as little as $6",
+  "authors": [
+   "Leixu Huang",
+   "Zedian Shao",
+   "Teodora Baluta"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2605.01386v2",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) lack persistent memory for long-term personalized conversations. Existing graph-based memory systems suffer from information dilution, absent provenance tracking, and uniform retrieval that ignores query context. We introduce MemORAI (Memory Organization and Retrieval via Adaptive Graph Intelligence), a framework that integrates three innovations: selective memory filtering with dual-layer compression to retain user-persona-relevant content, a provenance-enriched multi-relational graph tracking factual origins at the turn level, and query-adaptive subgraph retrieva",
+  "authors": [
+   "Hung Pham Van",
+   "Nguyen Manh Hieu",
+   "Khang Pham Tran Tuan",
+   "Nam Le Hai",
+   "Linh Ngo Van",
+   "Nguyen Thi Ngoc Diep"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "LogShield: A Transformer-based APT Detection System Leveraging Self-Attention",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2311.05733v1",
+  "cited_by": null,
+  "abstract": "Cyber attacks are often identified using system and network logs. There have been significant prior works that utilize provenance graphs and ML techniques to detect attacks, specifically advanced persistent threats, which are very difficult to detect. Lately, there have been studies where transformer-based language models are being used to detect various types of attacks from system logs. However, no such attempts have been made in the case of APTs. In addition, existing state-of-the-art techniques that use system provenance graphs, lack a data processing framework generalized across datasets ",
+  "authors": [
+   "Sihat Afnan",
+   "Mushtari Sadia",
+   "Shahrear Iqbal",
+   "Anindya Iqbal"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "Inspectable AI for Science: A Research Object Approach to Generative AI Governance",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2604.11261v1",
+  "cited_by": null,
+  "abstract": "This paper introduces AI as a Research Object (AI-RO), a paradigm for governing the use of generative AI in scientific research. Instead of debating whether AI is an author or merely a tool, we propose treating AI interactions as structured, inspectable components of the research process. Under this view, the legitimacy of an AI-assisted scientific paper depends on how model use is integrated into the workflow, documented, and made accountable. Drawing on Research Object theory and FAIR principles, we propose a framework for recording model configuration, prompts, and outputs through interacti",
+  "authors": [
+   "Ruta Binkyte",
+   "Sharif Abuaddba",
+   "Chamikara Mahawaga",
+   "Ming Ding",
+   "Natasha Fernandes",
+   "Mario Fritz"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "provenance",
+  "query": "abs:\"provenance\" AND abs:\"language model\" OR abs:\"tamper-evident\" AND abs:\"audit log\"",
+  "title": "KnowFeat: Knowledge-Guided Feature Engineering via LLM Agents",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2609.03529v1",
+  "cited_by": null,
+  "abstract": "Automated feature engineering with large language models (LLMs) can produce semantically meaningful features for tabular data, yet existing methods lack structured domain knowledge, rigorous verification, and explainable provenance. We propose KnowFeat, a knowledge-guided feature engineering framework that organizes domain knowledge into five types -- schema metadata, regulatory indicators, detection rules, expert opinions, and court document evidence -- and injects them as structured context into an LLM agent. A three-stage verification pipeline filters candidates through code execution, stat",
+  "authors": [
+   "Chengsong You",
+   "Wangyue Li",
+   "Weiqiao Que",
+   "Qizhou Chen",
+   "Kunyan Wu",
+   "Wei Deng"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Can Agent Memory Systems Track Evolving State?",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.19652v1",
+  "cited_by": null,
+  "abstract": "As LLM-based agents are deployed for longer and higher-stakes tasks, their memory systems continue to have crucial gaps. While existing memory benchmarks focus largely on recall-shaped tasks, we argue an effective memory system must track the evolving state of the world; as facts, constraints, and decisions are revised over a long interaction, answers must reflect the current state and not a superseded one. We define this capability as state tracking and instantiate it in StateMemBench, a benchmark of 234 multi-session scenarios spanning two conversation-length regimes. Its closed-pool grading",
+  "authors": [
+   "Xinyi Fan",
+   "Miri Liu",
+   "Ruozhen Yang",
+   "Siru Ouyang",
+   "Jiawei Han"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "ArborMem: Navigating Interaction States with Memory Forests",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.17534v1",
+  "cited_by": null,
+  "abstract": "Large language models increasingly serve as persistent conversational assistants, requiring memory that preserves relevant experience and maintains continuity across interactions. Existing methods improve access to conversational history through long-context processing, selective retrieval, and structured memory organization. However, most systems treat memory access as retrieving relevant past information without first determining which prior interaction state the current turn resumes. This limitation becomes particularly important when conversations interleave multiple tasks, people, and pla",
+  "authors": [
+   "Zongwei Lv",
+   "Yuemeng Xu",
+   "Yilun Yao",
+   "Siyi Ding",
+   "Xinyu Tan",
+   "Yaoming Li"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2602.16313v2",
+  "cited_by": null,
+  "abstract": "Existing evaluations of agents with memory typically assess memorization and action in isolation. One class of benchmarks evaluates memorization by testing recall of past conversations or text but fails to capture how memory is used to guide future decisions. Another class focuses on agents acting in single-session tasks without the need for long-term memory. However, in realistic settings, memorization and action are tightly coupled: agents acquire memory while interacting with the environment, and subsequently rely on that memory to solve future tasks. To capture this setting, we introduce M",
+  "authors": [
+   "Zexue He",
+   "Yu Wang",
+   "Churan Zhi",
+   "Yuanzhe Hu",
+   "Tzu-Ping Chen",
+   "Lang Yin"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "MedLoCoMo: A Long-Context Multi-Session Medical Dialogue Benchmark for Large Language Models",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2607.22566v1",
+  "cited_by": null,
+  "abstract": "MedLoCoMo is a Medical Long-Context Memory benchmark for patient-specific clinical reasoning over multi-admission medical dialogue. Existing medical QA benchmarks largely test short context knowledge or single document grounding, leaving open whether LLMs can use, connect, and abstain over longitudinal patient histories. We build MedLoCoMo from deidentified MIMIC-IV and MIMIC-IV-Note records by constructing admission-level clinical packets, synthesizing grounded doctor-patient conversations, and generating evidence linked QA items over single-admission, cross-admission, and adversarial unanswe",
+  "authors": [
+   "Zeyu Zhang",
+   "Ziqing Wang",
+   "Kaize Ding"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "RUMBA: Russian User Memory Benchmark",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2607.21447v1",
+  "cited_by": null,
+  "abstract": "The ability to handle long-term memory in LLMs is becoming increasingly critical, yet existing benchmarks remain English-centric and rely on aggregate retrieval metrics, failing to capture interactions between long-range context, temporal information, and reasoning. To address this, we introduce RUMBA (Russian User Memory BenchmArk) - a new benchmark for long-term conversational memory that provides a fine-grained taxonomy of memory-centric question types and a unified methodology accounting for semantic type, session scope, temporal reasoning, and the explicitness of temporal expressions. RUM",
+  "authors": [
+   "Elizaveta Shevtsova",
+   "Inna Glebkina",
+   "Mark Baushenko",
+   "Pavel Gulyaev",
+   "Alena Fenogenova"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Cache What Lasts: Token Retention for Memory-Bounded KV Cache in LLMs",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2512.03324v2",
+  "cited_by": null,
+  "abstract": "Memory and computation remain core bottlenecks in long-horizon LLM inference due to the quadratic cost of self-attention and the ever-growing key-value (KV) cache. Existing strategies for memory-bounded inference, such as quantization, offloading, or heuristic KV eviction, either incur high orchestration costs or rely on unreliable attention-based proxies of importance. We propose TRIM-KV, a novel approach that learns each token's intrinsic importance at creation time via a lightweight retention gate. Each gate predicts a scalar retention score that decays over time, reflecting the long-term u",
+  "authors": [
+   "Ngoc Bui",
+   "Shubham Sharma",
+   "Simran Lamba",
+   "Saumitra Mishra",
+   "Rex Ying"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2603.01966v1",
+  "cited_by": null,
+  "abstract": "Long-horizon interactions between users and LLM-based assistants necessitate effective memory management, yet current approaches face challenges in training and evaluation of memory. Existing memory benchmarks rely on static, off-policy data as context, limiting evaluation reliability and scalability. To address these gaps, we introduce AMemGym, an interactive environment enabling on-policy evaluation and optimization for memory-driven personalization. AMemGym employs structured data sampling to predefine user profiles, state-dependent questions, and state evolution trajectories, enabling cost",
+  "authors": [
+   "Cheng Jiayang",
+   "Dongyu Ru",
+   "Lin Qiu",
+   "Yiyang Li",
+   "Xuezhi Cao",
+   "Yangqiu Song"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2608.25655v2",
+  "cited_by": null,
+  "abstract": "Conversations with chat assistants increasingly span many topics in a single long-running thread, challenging memory systems. Existing long-context and memory benchmarks often expose session or topic boundaries, or probe direct personal-memory questions. These settings understate a harder assistant-memory regime: a flat mixed-topic thread where the system must infer which earlier episode makes a later task decision valid. We introduce SCALE-QA, a constraint-grounded task QA benchmark for flat unsegmented threads targeting episode integrity failure. The dataset contains 3,000 audited questions ",
+  "authors": [
+   "Zhexi Feng",
+   "Ruiyi Zhang",
+   "Yongbo Yang",
+   "Pengtao Xie"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "A-MBER: Affective Memory Benchmark for Emotion Recognition",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2604.07017v1",
+  "cited_by": null,
+  "abstract": "AI assistants that interact with users over time need to interpret the user's current emotional state in order to respond appropriately and personally. However, this capability remains insufficiently evaluated. Existing emotion datasets mainly assess local or instantaneous affect, while long-term memory benchmarks focus largely on factual recall, temporal consistency, or knowledge updating. As a result, current resources provide limited support for testing whether a model can use remembered interaction history to interpret a user's present affective state. We introduce A-MBER, an Affective Mem",
+  "authors": [
+   "Deliang Wen",
+   "Ke Sun",
+   "Yu Wang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "In Defense of RAG in the Era of Long-Context Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2409.01666v1",
+  "cited_by": null,
+  "abstract": "Overcoming the limited context limitations in early-generation LLMs, retrieval-augmented generation (RAG) has been a reliable solution for context-based answer generation in the past. Recently, the emergence of long-context LLMs allows the models to incorporate much longer text sequences, making RAG less attractive. Recent studies show that long-context LLMs significantly outperform RAG in long-context applications. Unlike the existing works favoring the long-context LLM over RAG, we argue that the extremely long context in LLMs suffers from a diminished focus on relevant information and leads",
+  "authors": [
+   "Tan Yu",
+   "Anbang Xu",
+   "Rama Akkiraju"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Estimating Optimal Context Length for Hybrid Retrieval-augmented Multi-document Summarization",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2504.12972v1",
+  "cited_by": null,
+  "abstract": "Recent advances in long-context reasoning abilities of language models led to interesting applications in large-scale multi-document summarization. However, prior work has shown that these long-context models are not effective at their claimed context windows. To this end, retrieval-augmented systems provide an efficient and effective alternative. However, their performance can be highly sensitive to the choice of retrieval context length. In this work, we present a hybrid method that combines retrieval-augmented systems with long-context windows supported by recent language models. Our method",
+  "authors": [
+   "Adithya Pratapa",
+   "Teruko Mitamura"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "RAPID: Long-Context Inference with Retrieval-Augmented Speculative Decoding",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2502.20330v2",
+  "cited_by": null,
+  "abstract": "The emergence of long-context large language models (LLMs) offers a promising alternative to traditional retrieval-augmented generation (RAG) for processing extensive documents. However, the computational overhead of long-context inference presents significant efficiency challenges. While Speculative Decoding (SD) traditionally accelerates inference using smaller draft models, its effectiveness diminishes substantially in long-context scenarios due to memory-bound KV cache operations. We introduce Retrieval-Augmented Speculative Decoding (RAPID), which leverages RAG for both accelerating and e",
+  "authors": [
+   "Guanzheng Chen",
+   "Qilong Feng",
+   "Jinjie Ni",
+   "Xin Li",
+   "Michael Qizhe Shieh"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Retrieval meets Long Context Large Language Models",
+  "year": 2023,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2310.03025v2",
+  "cited_by": null,
+  "abstract": "Extending the context window of large language models (LLMs) is getting popular recently, while the solution of augmenting LLMs with retrieval has existed for years. The natural questions are: i) Retrieval-augmentation versus long context window, which one is better for downstream tasks? ii) Can both methods be combined to get the best of both worlds? In this work, we answer these questions by studying both solutions using two state-of-the-art pretrained LLMs, i.e., a proprietary 43B GPT and Llama2-70B. Perhaps surprisingly, we find that LLM with 4K context window using simple retrieval-augmen",
+  "authors": [
+   "Peng Xu",
+   "Wei Ping",
+   "Xianchao Wu",
+   "Lawrence McAfee",
+   "Chen Zhu",
+   "Zihan Liu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Does RAG Really Perform Bad For Long-Context Processing?",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2502.11444v1",
+  "cited_by": null,
+  "abstract": "The efficient processing of long context poses a serious challenge for large language models (LLMs). Recently, retrieval-augmented generation (RAG) has emerged as a promising strategy for this problem, as it enables LLMs to make selective use of the long context for efficient computation. However, existing RAG approaches lag behind other long-context processing methods due to inherent limitations on inaccurate retrieval and fragmented contexts. To address these challenges, we introduce RetroLM, a novel RAG framework for long-context processing. Unlike traditional methods, RetroLM employs KV-le",
+  "authors": [
+   "Kun Luo",
+   "Zheng Liu",
+   "Peitian Zhang",
+   "Hongjin Qian",
+   "Jun Zhao",
+   "Kang Liu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Retrieval-Augmented Perception: High-Resolution Image Perception Meets Visual RAG",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2503.01222v2",
+  "cited_by": null,
+  "abstract": "High-resolution (HR) image perception remains a key challenge in multimodal large language models (MLLMs). To overcome the limitations of existing methods, this paper shifts away from prior dedicated heuristic approaches and revisits the most fundamental idea to HR perception by enhancing the long-context capability of MLLMs, driven by recent advances in long-context techniques like retrieval-augmented generation (RAG) for general LLMs. Towards this end, this paper presents the first study exploring the use of RAG to address HR perception challenges. Specifically, we propose Retrieval-Augmente",
+  "authors": [
+   "Wenbin Wang",
+   "Yongcheng Jing",
+   "Liang Ding",
+   "Yingjie Wang",
+   "Li Shen",
+   "Yong Luo"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Efficient Context Scaling with LongCat ZigZag Attention",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2512.23966v2",
+  "cited_by": null,
+  "abstract": "We introduce LongCat ZigZag Attention (LoZA), which is a sparse attention scheme designed to transform any existing full-attention models into sparse versions with rather limited compute budget. In long-context scenarios, LoZA can achieve significant speed-ups both for prefill-intensive (e.g., retrieval-augmented generation) and decode-intensive (e.g., tool-integrated reasoning) cases. Specifically, by applying LoZA to LongCat-Flash during mid-training, we serve LongCat-Flash-Exp as a long-context foundation model that can swiftly process up to 1 million tokens, enabling efficient long-term re",
+  "authors": [
+   "Chen Zhang",
+   "Yang Bai",
+   "Jiahuan Li",
+   "Anchun Gui",
+   "Keheng Wang",
+   "Feifan Liu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Leave No Document Behind: Benchmarking Long-Context LLMs with Extended Multi-Doc QA",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2406.17419v2",
+  "cited_by": null,
+  "abstract": "Long-context modeling capabilities have garnered widespread attention, leading to the emergence of Large Language Models (LLMs) with ultra-context windows. Meanwhile, benchmarks for evaluating long-context LLMs are gradually catching up. However, existing benchmarks employ irrelevant noise texts to artificially extend the length of test cases, diverging from the real-world scenarios of long-context applications. To bridge this gap, we propose a novel long-context benchmark, Loong, aligning with realistic scenarios through extended multi-document question answering (QA). Unlike typical document",
+  "authors": [
+   "Minzheng Wang",
+   "Longze Chen",
+   "Cheng Fu",
+   "Shengyi Liao",
+   "Xinghua Zhang",
+   "Bingli Wu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "A Survey on Transformer Context Extension: Approaches and Evaluation",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2503.13299v2",
+  "cited_by": null,
+  "abstract": "Large language models (LLMs) based on Transformer have been widely applied in the filed of natural language processing (NLP), demonstrating strong performance, particularly in handling short text tasks. However, when it comes to long context scenarios, the performance of LLMs degrades due to some challenges. To alleviate this phenomenon, there is a number of work proposed recently. In this survey, we first list the challenges of applying pre-trained LLMs to process long contexts. Then systematically review the approaches related to long context and propose our taxonomy categorizing them into f",
+  "authors": [
+   "Yijun Liu",
+   "Jinzheng Yu",
+   "Yang Xu",
+   "Zhongyang Li",
+   "Qingfu Zhu"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2509.07403v2",
+  "cited_by": null,
+  "abstract": "Large language models (LLMs) have made significant progress in Emotional Intelligence (EI) and long-context modeling. However, existing benchmarks often overlook the fact that emotional information processing unfolds as a continuous long-context process. To address the absence of multidimensional EI evaluation in long-context inference and explore model performance under more challenging conditions, we present LongEmotion, a benchmark that encompasses a diverse suite of tasks targeting the assessment of models' capabilities in Emotion Recognition, Knowledge Application, and Empathetic Generati",
+  "authors": [
+   "Weichu Liu",
+   "Jing Xiong",
+   "Yuxuan Hu",
+   "Zixuan Li",
+   "Minghuan Tan",
+   "Ningning Mao"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "ToM: Leveraging Tree-oriented MapReduce for Long-Context Reasoning in Large Language Models",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2511.00489v1",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs), constrained by limited context windows, often face significant performance degradation when reasoning over long contexts. To address this, Retrieval-Augmented Generation (RAG) retrieves and reasons over chunks but frequently sacrifices logical coherence due to its reliance on similarity-based rankings. Similarly, divide-and-conquer frameworks (DCF) split documents into small chunks for independent reasoning and aggregation. While effective for local reasoning, DCF struggles to capture long-range dependencies and risks inducing conflicts by processing chunks in iso",
+  "authors": [
+   "Jiani Guo",
+   "Zuchao Li",
+   "Jie Wu",
+   "Qianren Wang",
+   "Yun Li",
+   "Lefei Zhang"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2607.16716v1",
+  "cited_by": null,
+  "abstract": "Large language models and LLM-based agents are widely used as personal chat assistants, enterprise copilots, and autonomous workflow agents. In all these applications, memory (the ability to retain, access, and reason over information accumulated over long contexts and multiple interactions) plays a crucial role in determining the reliability of any agent. We introduce RECON (Reasoning over Extended Contexts with Obfuscated Narratives), a benchmark for evaluating compositional reasoning over long contexts. RECON spans 24 case files across three domains (criminal, medical, and financial), each ",
+  "authors": [
+   "Mihir Shriniwas Arya"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "EpMAN: Episodic Memory AttentioN for Generalizing to Longer Contexts",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2502.14280v1",
+  "cited_by": null,
+  "abstract": "Recent advances in Large Language Models (LLMs) have yielded impressive successes on many language tasks. However, efficient processing of long contexts using LLMs remains a significant challenge. We introduce \\textbf{EpMAN} -- a method for processing long contexts in an \\textit{episodic memory} module while \\textit{holistically attending to} semantically relevant context chunks. The output of \\textit{episodic attention} is then used to reweigh the decoder's self-attention to the stored KV cache of the context during training and generation. When an LLM decoder is trained using \\textbf{EpMAN},",
+  "authors": [
+   "Subhajit Chaudhury",
+   "Payel Das",
+   "Sarathkrishna Swaminathan",
+   "Georgios Kollias",
+   "Elliot Nelson",
+   "Khushbu Pahwa"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "LongRAG: A Dual-Perspective Retrieval-Augmented Generation Paradigm for Long-Context Question Answering",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2410.18050v2",
+  "cited_by": null,
+  "abstract": "Long-Context Question Answering (LCQA), a challenging task, aims to reason over long-context documents to yield accurate answers to questions. Existing long-context Large Language Models (LLMs) for LCQA often struggle with the \"lost in the middle\" issue. Retrieval-Augmented Generation (RAG) mitigates this issue by providing external factual evidence. However, its chunking strategy disrupts the global long-context information, and its low-quality retrieval in long contexts hinders LLMs from identifying effective factual details due to substantial noise. To this end, we propose LongRAG, a genera",
+  "authors": [
+   "Qingfei Zhao",
+   "Ruobing Wang",
+   "Yukuo Cen",
+   "Daren Zha",
+   "Shicheng Tan",
+   "Yuxiao Dong"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "ACER: Automatic Language Model Context Extension via Retrieval",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2410.09141v1",
+  "cited_by": null,
+  "abstract": "Long-context modeling is one of the critical capabilities of language AI for digesting and reasoning over complex information pieces. In practice, long-context capabilities are typically built into a pre-trained language model~(LM) through a carefully designed context extension stage, with the goal of producing generalist long-context capabilities. In our preliminary experiments, however, we discovered that the current open-weight generalist long-context models are still lacking in practical long-context processing tasks. While this means perfectly effective long-context modeling demands task-",
+  "authors": [
+   "Luyu Gao",
+   "Yunyi Zhang",
+   "Jamie Callan"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Fast and Faithful: Real-Time Verification for Long-Document Retrieval-Augmented Generation Systems",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2603.23508v1",
+  "cited_by": null,
+  "abstract": "Retrieval-augmented generation (RAG) is increasingly deployed in enterprise search and document-centric assistants, where responses must be grounded in long and complex source materials. In practice, verifying that generated answers faithfully reflect retrieved documents is difficult: large language models can check long contexts but are too slow and costly for interactive services, while lightweight classifiers operate within strict context limits and frequently miss evidence outside truncated passages. We present the design of a real-time verification component integrated into a production R",
+  "authors": [
+   "Xunzhuo Liu",
+   "Bowei He",
+   "Xue Liu",
+   "Haichen Zhang",
+   "Huamin Chen"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Long Context RAG Performance of Large Language Models",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2411.03538v1",
+  "cited_by": null,
+  "abstract": "Retrieval Augmented Generation (RAG) has emerged as a crucial technique for enhancing the accuracy of Large Language Models (LLMs) by incorporating external information. With the advent of LLMs that support increasingly longer context lengths, there is a growing interest in understanding how these models perform in RAG scenarios. Can these new long context models improve RAG performance? This paper presents a comprehensive study of the impact of increased context length on RAG performance across 20 popular open source and commercial LLMs. We ran RAG workflows while varying the total context le",
+  "authors": [
+   "Quinn Leng",
+   "Jacob Portes",
+   "Sam Havens",
+   "Matei Zaharia",
+   "Michael Carbin"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Evaluation of retrieval-based QA on QUEST-LOFT",
+  "year": 2025,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2511.06125v1",
+  "cited_by": null,
+  "abstract": "Despite the popularity of retrieval-augmented generation (RAG) as a solution for grounded QA in both academia and industry, current RAG methods struggle with questions where the necessary information is distributed across many documents or where retrieval needs to be combined with complex reasoning. Recently, the LOFT study has shown that this limitation also applies to approaches based on long-context language models, with the QUEST benchmark exhibiting particularly large headroom. In this paper, we provide an in-depth analysis of the factors contributing to the poor performance on QUEST-LOFT",
+  "authors": [
+   "Nathan Scales",
+   "Nathanael Sch\u00e4rli",
+   "Olivier Bousquet"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2407.16833v2",
+  "cited_by": null,
+  "abstract": "Retrieval Augmented Generation (RAG) has been a powerful tool for Large Language Models (LLMs) to efficiently process overly lengthy contexts. However, recent LLMs like Gemini-1.5 and GPT-4 show exceptional capabilities to understand long contexts directly. We conduct a comprehensive comparison between RAG and long-context (LC) LLMs, aiming to leverage the strengths of both. We benchmark RAG and LC across various public datasets using three latest LLMs. Results reveal that when resourced sufficiently, LC consistently outperforms RAG in terms of average performance. However, RAG's significantly",
+  "authors": [
+   "Zhuowan Li",
+   "Cheng Li",
+   "Mingyang Zhang",
+   "Qiaozhu Mei",
+   "Michael Bendersky"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Enhancing Retrieval in QA Systems with Derived Feature Association",
+  "year": 2024,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2410.03754v1",
+  "cited_by": null,
+  "abstract": "Retrieval augmented generation (RAG) has become the standard in long context question answering (QA) systems. However, typical implementations of RAG rely on a rather naive retrieval mechanism, in which texts whose embeddings are most similar to that of the query are deemed most relevant. This has consequences in subjective QA tasks, where the most relevant text may not directly contain the answer. In this work, we propose a novel extension to RAG systems, which we call Retrieval from AI Derived Documents (RAIDD). RAIDD leverages the full power of the LLM in the retrieval process by deriving i",
+  "authors": [
+   "Keyush Shah",
+   "Abhishek Goyal",
+   "Isaac Wasserman"
+  ]
+ },
+ {
+  "source": "arxiv",
+  "theme": "eval_cost",
+  "query": "abs:\"long context\" AND abs:\"retrieval-augmented\" OR abs:\"memory benchmark\" AND abs:\"agent\" OR abs:\"LongMemEval\" OR abs:\"conversation\" AND abs:\"memory\" AND abs:\"benchmark\"",
+  "title": "Coding Agents are Effective Long-Context Processors",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "",
+  "arxiv": "2603.20432v1",
+  "cited_by": null,
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable progress in scaling to access massive contexts. However, the access is via the latent and uninterpretable attention mechanisms, and LLMs fail to effective process long context, exhibiting significant performance degradation as context length increases. In this work, we study whether long-context processing can be externalized from latent attention into explicit, executable interactions, by allowing coding agents to organize text in file systems and manipulate it using its native tools. We evaluate off-the-shelf frontier coding agents as",
+  "authors": [
+   "Weili Cao",
+   "Xunjian Yin",
+   "Bhuwan Dhingra",
+   "Shuyan Zhou"
+  ]
+ }
+]

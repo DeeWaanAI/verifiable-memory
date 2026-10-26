@@ -1,0 +1,84 @@
+{
+ "experiment": "exp2_forgetting_consent",
+ "frozen": "2026-10-19",
+ "headline": {
+  "single_delete_absence_scan": "PASS",
+  "cascade_delete_absence_scan": "PASS",
+  "cascade_removed": [
+   "m_179300725783500003",
+   "m_179300725783700005"
+  ],
+  "dr_A_leakage": {
+   "preference_store/data.jsonl": false,
+   "preference_store/history.jsonl": true,
+   "longterm_notes/data.jsonl": true,
+   "longterm_notes/history.jsonl": true,
+   "session_log/data.jsonl": true,
+   "session_log/history.jsonl": true,
+   "prompt_context": false
+  },
+  "paris_leakage": {
+   "preference_store/data.jsonl": false,
+   "preference_store/history.jsonl": true,
+   "longterm_notes/data.jsonl": false,
+   "longterm_notes/history.jsonl": true,
+   "session_log/data.jsonl": true,
+   "session_log/history.jsonl": true,
+   "prompt_context": false
+  },
+  "read_path_clean": true,
+  "paraphrase_probe": {
+   "note_status_after_delete": "active",
+   "exact_string_scan_result": "PASS",
+   "carries_deleted_content_semantically": true,
+   "boundary": "the mechanism is EXACT-STRING absence on the read path; a paraphrase or derived summary with a provenance gap can carry the deleted content while the scan passes. Mitigation = complete provenance (derived_from non-empty and honored) + semantic-similarity scan (future work)."
+  }
+ },
+ "note": "leakage=true in history/raw-turn files is EXPECTED and reported: the guarantee is absence from later prompts (read path), not erasure from append-only history (spec \u00a75.3; limit test L5).",
+ "proofs": {
+  "single": {
+   "state_before": "c2021cee680f90e8e6c0b579654f16a7f3700035d550077e23a052ddfd0e2525",
+   "state_after": "a1d31a4d3c10df5172fa920d1246a302d4a5c4e176575a24bf9c8b91d10f9a64",
+   "payload_hash": "34b5bf19add686d61d9ee6e00eb22a3875112d9c7e8d0b670ef049cd02fbf336",
+   "absence_scan": {
+    "result": "PASS",
+    "scanned": [
+     {
+      "dataset": "preference_store (active records)",
+      "hash": "bfbb802f34dccc2c7401b52e55589cfe2831d6e5e2423117c1d4586a59113a3f"
+     },
+     {
+      "dataset": "longterm_notes (active records)",
+      "hash": "e1bca966d7aa245db18a1a700502e6f33190297bc23e8551d05511cca354e448"
+     },
+     {
+      "prompt_context": "25839bf12c58659e7c34b5d7cfec61554be9046623d9418e1877e103008a8d06"
+     }
+    ],
+    "coverage": "read path: active preference_store + longterm_notes + prompt context"
+   }
+  },
+  "cascade": {
+   "state_before": "8c0e2086075bec840dfe14e1c684977dc0743891cb0a79398c0d194d20dd3c44",
+   "state_after": "6615a46ad8daee6dea15ccae0cb6e8439883d81cf6c37d1719eeed9bdfa5bc8a",
+   "payload_hash": "6e36e9be37fd72568e933e2f3c2b51a98a769dd51b2560be58a2ac656e1767e1",
+   "absence_scan": {
+    "result": "PASS",
+    "scanned": [
+     {
+      "dataset": "preference_store (active records)",
+      "hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+     },
+     {
+      "dataset": "longterm_notes (active records)",
+      "hash": "bb81f84bc5ce716d77c07238d8846801c5d280fb8e5878aef441dce248f92641"
+     },
+     {
+      "prompt_context": "ebb76b476b1504d944de3b61b45763dce3a4d1987e62d7f8e9e18a00afa24c97"
+     }
+    ],
+    "coverage": "read path: active preference_store + longterm_notes + prompt context"
+   }
+  }
+ }
+}

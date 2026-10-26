@@ -1,0 +1,795 @@
+{
+ "packer2023memgpt": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2310.08560"
+  },
+  "rec": {
+   "title": "MemGPT: Towards LLMs as Operating Systems",
+   "year": "2023",
+   "authors": [
+    "Charles Packer",
+    "Sarah Wooders",
+    "Kevin Lin",
+    "Vivian Fang",
+    "Shishir G. Patil",
+    "Ion Stoica",
+    "Joseph E. Gonzalez"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2310.08560",
+   "arxiv": "2310.08560",
+   "source": "arxiv"
+  }
+ },
+ "park2023genagents": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2304.03442"
+  },
+  "rec": {
+   "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+   "year": "2023",
+   "authors": [
+    "Joon Sung Park",
+    "Joseph C. O'Brien",
+    "Carrie J. Cai",
+    "Meredith Ringel Morris",
+    "Percy Liang",
+    "Michael S. Bernstein"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2304.03442",
+   "arxiv": "2304.03442",
+   "source": "arxiv"
+  }
+ },
+ "zhang2025memorysurvey": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.1145/3748302"
+  },
+  "rec": {
+   "title": "A Survey on the Memory Mechanism of Large Language Model-based Agents",
+   "year": 2025,
+   "authors": [
+    "Zeyu Zhang",
+    "Quanyu Dai",
+    "Xiaohe Bo",
+    "Chen Ma",
+    "Rui Ling Li",
+    "Xu Chen",
+    "Jieming Zhu",
+    "Zhenhua Dong"
+   ],
+   "venue": "ACM Transactions on Information Systems",
+   "doi": "10.1145/3748302",
+   "arxiv": null,
+   "cited_by": 144,
+   "source": "openalex"
+  }
+ },
+ "li2024memorymatters": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.1609/aaaiss.v2i1.27688"
+  },
+  "rec": {
+   "title": "Memory Matters: The Need to Improve Long-Term Memory in LLM-Agents",
+   "year": 2024,
+   "authors": [
+    "Kostas Hatalis",
+    "Despina Christou",
+    "Joshua Myers",
+    "Steve R. Jones",
+    "Keith Lambert",
+    "Adam Amos\u2010Binks",
+    "Zohreh A. Dannenhauer",
+    "Dustin Dannenhauer"
+   ],
+   "venue": "Proceedings of the AAAI Symposium Series",
+   "doi": "10.1609/aaaiss.v2i1.27688",
+   "arxiv": null,
+   "cited_by": 41,
+   "source": "openalex"
+  }
+ },
+ "rasmussen2025zep": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2501.13956"
+  },
+  "rec": {
+   "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
+   "year": "2025",
+   "authors": [
+    "Preston Rasmussen",
+    "Pavlo Paliychuk",
+    "Travis Beauvais",
+    "Jack Ryan",
+    "Daniel Chalef"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2501.13956",
+   "arxiv": "2501.13956",
+   "source": "arxiv"
+  }
+ },
+ "wu2026agenticmem": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.18653/v1/2026.acl-long.981"
+  },
+  "rec": {
+   "title": "Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents",
+   "year": 2026,
+   "authors": [
+    "Yi Yu",
+    "Liuyi Yao",
+    "Yuexiang Xie",
+    "Qingquan Tan",
+    "Jiaqi Feng",
+    "Yaliang Li",
+    "Libing Wu"
+   ],
+   "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+   "doi": "10.18653/v1/2026.acl-long.981",
+   "arxiv": null,
+   "cited_by": 3,
+   "source": "openalex"
+  }
+ },
+ "chi2026usableprivacymem": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.1145/3772363.3799198"
+  },
+  "rec": {
+   "title": "Towards Usable, Privacy Respecting Long-Term Memory for LLM-based Conversational Agents",
+   "year": 2026,
+   "authors": [
+    "Lisa Mekioussa Malki"
+   ],
+   "venue": "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA)",
+   "doi": "10.1145/3772363.3799198",
+   "arxiv": null,
+   "cited_by": 1,
+   "source": "openalex"
+  }
+ },
+ "zhong2024memorybank": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2305.10250"
+  },
+  "rec": {
+   "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+   "year": "2023",
+   "authors": [
+    "Wanjun Zhong",
+    "Lianghong Guo",
+    "Qiqi Gao",
+    "He Ye",
+    "Yanlin Wang"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2305.10250",
+   "arxiv": "2305.10250",
+   "source": "arxiv"
+  }
+ },
+ "du2024perltqa": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2402.16288"
+  },
+  "rec": {
+   "title": "PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Synthesis in Question Answering",
+   "year": "2024",
+   "authors": [
+    "Yiming Du",
+    "Hongru Wang",
+    "Zhengyi Zhao",
+    "Bin Liang",
+    "Baojun Wang",
+    "Wanjun Zhong",
+    "Zezhong Wang",
+    "Kam-Fai Wong"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2402.16288",
+   "arxiv": "2402.16288",
+   "source": "arxiv"
+  }
+ },
+ "xu2025memconstruct": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2502.05589"
+  },
+  "rec": {
+   "title": "On Memory Construction and Retrieval for Personalized Conversational Agents",
+   "year": "2025",
+   "authors": [
+    "Zhuoshi Pan",
+    "Qianhui Wu",
+    "Huiqiang Jiang",
+    "Xufang Luo",
+    "Hao Cheng",
+    "Dongsheng Li",
+    "Yuqing Yang",
+    "Chin-Yew Lin"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2502.05589",
+   "arxiv": "2502.05589",
+   "source": "arxiv"
+  }
+ },
+ "kim2023evolvingcondmem": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2312.17257"
+  },
+  "rec": {
+   "title": "Personalized Large Language Model Assistant with Evolving Conditional Memory",
+   "year": "2023",
+   "authors": [
+    "Ruifeng Yuan",
+    "Shichao Sun",
+    "Yongqi Li",
+    "Zili Wang",
+    "Ziqiang Cao",
+    "Wenjie Li"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2312.17257",
+   "arxiv": "2312.17257",
+   "source": "arxiv"
+  }
+ },
+ "liang2025simplebaseline": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2511.17208"
+  },
+  "rec": {
+   "title": "A Simple Yet Strong Baseline for Long-Term Conversational Memory of LLM Agents",
+   "year": "2025",
+   "authors": [
+    "Sizhe Zhou",
+    "Jiawei Han"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2511.17208",
+   "arxiv": "2511.17208",
+   "source": "arxiv"
+  }
+ },
+ "li2025longtermeval": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.18653/v1/2025.findings-acl.1014"
+  },
+  "rec": {
+   "title": "Evaluating the Long-Term Memory of Large Language Models",
+   "year": 2025,
+   "authors": [
+    "Zixi Jia",
+    "Qinghua Liu",
+    "Hexiao Li",
+    "Yuyan Chen",
+    "Jiqiang Liu"
+   ],
+   "venue": null,
+   "doi": "10.18653/v1/2025.findings-acl.1014",
+   "arxiv": null,
+   "cited_by": 4,
+   "source": "openalex"
+  }
+ },
+ "decao2021editing": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.18653/v1/2021.emnlp-main.522"
+  },
+  "rec": {
+   "title": "Editing Factual Knowledge in Language Models",
+   "year": 2021,
+   "authors": [
+    "Nicola De Cao",
+    "Wilker Ferreira Aziz",
+    "Ivan Titov"
+   ],
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "doi": "10.18653/v1/2021.emnlp-main.522",
+   "arxiv": null,
+   "cited_by": 177,
+   "source": "openalex"
+  }
+ },
+ "meng2022rome": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2202.05262"
+  },
+  "rec": {
+   "title": "Locating and Editing Factual Associations in GPT",
+   "year": "2022",
+   "authors": [
+    "Kevin Meng",
+    "David Bau",
+    "Alex Andonian",
+    "Yonatan Belinkov"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2202.05262",
+   "arxiv": "2202.05262",
+   "source": "arxiv"
+  }
+ },
+ "meng2022memit": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2210.07229"
+  },
+  "rec": {
+   "title": "Mass-Editing Memory in a Transformer",
+   "year": "2022",
+   "authors": [
+    "Kevin Meng",
+    "Arnab Sen Sharma",
+    "Alex Andonian",
+    "Yonatan Belinkov",
+    "David Bau"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2210.07229",
+   "arxiv": "2210.07229",
+   "source": "arxiv"
+  }
+ },
+ "zhang2024kesurvey": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.1145/3698590"
+  },
+  "rec": {
+   "title": "Knowledge Editing for Large Language Models: A Survey",
+   "year": 2024,
+   "authors": [
+    "Song Wang",
+    "Yaochen Zhu",
+    "Haochen Liu",
+    "Zaiyi Zheng",
+    "Chen Chen",
+    "Jundong Li"
+   ],
+   "venue": "ACM Computing Surveys",
+   "doi": "10.1145/3698590",
+   "arxiv": null,
+   "cited_by": 78,
+   "source": "openalex"
+  }
+ },
+ "cohen2024ripple": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.1162/tacl_a_00644"
+  },
+  "rec": {
+   "title": "Evaluating the Ripple Effects of Knowledge Editing in Language Models",
+   "year": 2024,
+   "authors": [
+    "Roi Cohen",
+    "Eden Biran",
+    "Ori Yoran",
+    "Amir Globerson",
+    "Mor Geva"
+   ],
+   "venue": "Transactions of the Association for Computational Linguistics",
+   "doi": "10.1162/tacl_a_00644",
+   "arxiv": null,
+   "cited_by": 43,
+   "source": "openalex"
+  }
+ },
+ "zhong2023mquake": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.18653/v1/2023.emnlp-main.971"
+  },
+  "rec": {
+   "title": "MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions",
+   "year": 2023,
+   "authors": [
+    "Zexuan Zhong",
+    "Zhengxuan Wu",
+    "Christopher D. Manning",
+    "Christopher Potts",
+    "Danqi Chen"
+   ],
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "doi": "10.18653/v1/2023.emnlp-main.971",
+   "arxiv": null,
+   "cited_by": 54,
+   "source": "openalex"
+  }
+ },
+ "gupta2024editatscale": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.18653/v1/2024.findings-acl.902"
+  },
+  "rec": {
+   "title": "Model Editing at Scale leads to Gradual and Catastrophic Forgetting",
+   "year": 2024,
+   "authors": [
+    "Akshat Gupta",
+    "Anurag Rao",
+    "Gopala Anumanchipalli"
+   ],
+   "venue": null,
+   "doi": "10.18653/v1/2024.findings-acl.902",
+   "arxiv": null,
+   "cited_by": 12,
+   "source": "openalex"
+  }
+ },
+ "ginart2019deletion": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "1907.05012"
+  },
+  "rec": {
+   "title": "Making AI Forget You: Data Deletion in Machine Learning",
+   "year": "2019",
+   "authors": [
+    "Antonio Ginart",
+    "Melody Y. Guan",
+    "Gregory Valiant",
+    "James Zou"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.1907.05012",
+   "arxiv": "1907.05012",
+   "source": "arxiv"
+  }
+ },
+ "golatkar2020eternal": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.1109/cvpr42600.2020.00932"
+  },
+  "rec": {
+   "title": "Eternal Sunshine of the Spotless Net: Selective Forgetting in Deep Networks",
+   "year": 2020,
+   "authors": [
+    "Aditya Golatkar",
+    "Alessandro Achille",
+    "Stefano Soatto"
+   ],
+   "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+   "doi": "10.1109/cvpr42600.2020.00932",
+   "arxiv": null,
+   "cited_by": 392,
+   "source": "openalex"
+  }
+ },
+ "bourtoule2021sisa": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "1912.03817"
+  },
+  "rec": {
+   "title": "Machine Unlearning",
+   "year": "2019",
+   "authors": [
+    "Lucas Bourtoule",
+    "Varun Chandrasekaran",
+    "Christopher A. Choquette-Choo",
+    "Hengrui Jia",
+    "Adelin Travers",
+    "Baiwu Zhang",
+    "David Lie",
+    "Nicolas Papernot"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.1912.03817",
+   "arxiv": "1912.03817",
+   "source": "arxiv"
+  }
+ },
+ "sommer2022athena": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.56553/popets-2022-0072"
+  },
+  "rec": {
+   "title": "Athena: Probabilistic Verification of Machine Unlearning",
+   "year": 2022,
+   "authors": [
+    "David Sommer",
+    "Liwei Song",
+    "Sameer Wagh",
+    "Prateek Mittal"
+   ],
+   "venue": "Proceedings on Privacy Enhancing Technologies",
+   "doi": "10.56553/popets-2022-0072",
+   "arxiv": null,
+   "cited_by": 51,
+   "source": "openalex"
+  }
+ },
+ "liu2024frontier": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2403.15779"
+  },
+  "rec": {
+   "title": "The Frontier of Data Erasure: Machine Unlearning for Large Language Models",
+   "year": "2024",
+   "authors": [
+    "Youyang Qu",
+    "Ming Ding",
+    "Nan Sun",
+    "Kanchana Thilakarathna",
+    "Tianqing Zhu",
+    "Dusit Niyato"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2403.15779",
+   "arxiv": "2403.15779",
+   "source": "arxiv"
+  }
+ },
+ "wang2025whatforget": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2507.11128"
+  },
+  "rec": {
+   "title": "What Should LLMs Forget? Quantifying Personal Data in LLMs for Right-to-Be-Forgotten Requests",
+   "year": "2025",
+   "authors": [
+    "Dimitri Staufer"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2507.11128",
+   "arxiv": "2507.11128",
+   "source": "arxiv"
+  }
+ },
+ "agenttrace2026survey": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2606.04990"
+  },
+  "rec": {
+   "title": "From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents",
+   "year": "2026",
+   "authors": [
+    "Yiqi Wang",
+    "Jiaqi Zhang",
+    "Zhangkai Wu",
+    "Taotao Cai",
+    "Zirui Liu",
+    "Zequn Sun",
+    "Mingkai Zheng",
+    "Manqing Dong"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2606.04990",
+   "arxiv": "2606.04990",
+   "source": "arxiv"
+  }
+ },
+ "mapgraph2026": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2608.10509"
+  },
+  "rec": {
+   "title": "MAP-Graph: Provenance-Aware Shared Memory for Multi-Agent Workflows",
+   "year": "2026",
+   "authors": [
+    "Yiqi Wang",
+    "Zihao Yan",
+    "Jiaqi Zhang",
+    "Zhangkai Wu",
+    "Mingkai Zheng",
+    "Zequn Sun",
+    "Yanming Zhu",
+    "Taotao Cai"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2608.10509",
+   "arxiv": "2608.10509",
+   "source": "arxiv"
+  }
+ },
+ "transparency2023logs": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.1145/3689944.3696349"
+  },
+  "rec": {
+   "title": "Nowhere to Hide: Using Transparency Logs to Secure Your Supply Chain",
+   "year": 2023,
+   "authors": [
+    "Hayden Blauzvern"
+   ],
+   "venue": null,
+   "doi": "10.1145/3689944.3696349",
+   "arxiv": null,
+   "cited_by": 1,
+   "source": "openalex"
+  }
+ },
+ "wu2024longmemeval": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2410.10813"
+  },
+  "rec": {
+   "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+   "year": "2024",
+   "authors": [
+    "Di Wu",
+    "Hongwei Wang",
+    "Wenhao Yu",
+    "Yuwei Zhang",
+    "Kai-Wei Chang",
+    "Dong Yu"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2410.10813",
+   "arxiv": "2410.10813",
+   "source": "arxiv"
+  }
+ },
+ "maharana2024locomo": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2402.17753"
+  },
+  "rec": {
+   "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+   "year": "2024",
+   "authors": [
+    "Adyasha Maharana",
+    "Dong-Ho Lee",
+    "Sergey Tulyakov",
+    "Mohit Bansal",
+    "Francesco Barbieri",
+    "Yuwei Fang"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2402.17753",
+   "arxiv": "2402.17753",
+   "source": "arxiv"
+  }
+ },
+ "li2024ragvslongctx": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2407.16833"
+  },
+  "rec": {
+   "title": "Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach",
+   "year": "2024",
+   "authors": [
+    "Zhuowan Li",
+    "Cheng Li",
+    "Mingyang Zhang",
+    "Qiaozhu Mei",
+    "Michael Bendersky"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2407.16833",
+   "arxiv": "2407.16833",
+   "source": "arxiv"
+  }
+ },
+ "liu2024lostmiddle": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2307.03172"
+  },
+  "rec": {
+   "title": "Lost in the Middle: How Language Models Use Long Contexts",
+   "year": "2023",
+   "authors": [
+    "Nelson F. Liu",
+    "Kevin Lin",
+    "John Hewitt",
+    "Ashwin Paranjape",
+    "Michele Bevilacqua",
+    "Fabio Petroni",
+    "Percy Liang"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2307.03172",
+   "arxiv": "2307.03172",
+   "source": "arxiv"
+  }
+ },
+ "recallforget2026bench": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.18653/v1/2026.findings-acl.1337"
+  },
+  "rec": {
+   "title": "From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents",
+   "year": 2026,
+   "authors": [
+    "Md Nayem Uddin",
+    "Kumar Shubham",
+    "Eduardo Blanco",
+    "Chitta Baral",
+    "Gengyu Wang"
+   ],
+   "venue": null,
+   "doi": "10.18653/v1/2026.findings-acl.1337",
+   "arxiv": null,
+   "cited_by": 2,
+   "source": "openalex"
+  }
+ },
+ "costaware2026mem": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2609.05441"
+  },
+  "rec": {
+   "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+   "year": "2026",
+   "authors": [
+    "Shweta Mishra",
+    "Shashank Mishra"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2609.05441",
+   "arxiv": "2609.05441",
+   "source": "arxiv"
+  }
+ },
+ "agentmembench2026": {
+  "status": "OK",
+  "spec": {
+   "arxiv": "2608.00009"
+  },
+  "rec": {
+   "title": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
+   "year": "2026",
+   "authors": [
+    "Ahmed Cherif"
+   ],
+   "venue": "arXiv",
+   "doi": "10.48550/arXiv.2608.00009",
+   "arxiv": "2608.00009",
+   "source": "arxiv"
+  }
+ },
+ "chevalier2023compressctx": {
+  "status": "OK",
+  "spec": {
+   "doi": "10.18653/v1/2023.emnlp-main.232"
+  },
+  "rec": {
+   "title": "Adapting Language Models to Compress Contexts",
+   "year": 2023,
+   "authors": [
+    "Alexis Chevalier",
+    "Alexander Wettig",
+    "Anirudh Ajith",
+    "Danqi Chen"
+   ],
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "doi": "10.18653/v1/2023.emnlp-main.232",
+   "arxiv": null,
+   "cited_by": 54,
+   "source": "openalex"
+  }
+ }
+}

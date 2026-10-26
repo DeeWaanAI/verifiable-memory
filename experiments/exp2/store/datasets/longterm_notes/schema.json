@@ -1,0 +1,19 @@
+{
+ "dataset": "longterm_notes",
+ "id_field": "id",
+ "fields": {
+  "id": "id",
+  "created_at": "timestamp",
+  "source_ref": "list<id>",
+  "valid_from": "timestamp",
+  "superseded_by": "id|null",
+  "status": "enum[active,corrected,deleted,stale]",
+  "note": "string",
+  "derived_from": "list<id>",
+  "note_kind": "enum[summary,reflection,fact-cluster]"
+ },
+ "derivations": [
+  "filter",
+  "count"
+ ]
+}

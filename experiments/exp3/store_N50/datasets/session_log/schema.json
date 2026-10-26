@@ -1,0 +1,25 @@
+{
+ "dataset": "session_log",
+ "id_field": "id",
+ "fields": {
+  "id": "id",
+  "created_at": "timestamp",
+  "source_ref": "list<id>",
+  "valid_from": "timestamp",
+  "superseded_by": "id|null",
+  "status": "enum[active,corrected,deleted,stale]",
+  "session_id": "id",
+  "turn_index": "number",
+  "role": "enum[user,agent,system]",
+  "content": "string",
+  "tokens_in": "number",
+  "tokens_out": "number",
+  "model_id": "string"
+ },
+ "derivations": [
+  "filter",
+  "count",
+  "groupby",
+  "sum"
+ ]
+}

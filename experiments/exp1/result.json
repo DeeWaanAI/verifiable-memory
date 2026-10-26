@@ -1,0 +1,33 @@
+{
+ "experiment": "exp1_correction_integrity",
+ "frozen": "2026-10-19",
+ "headline": {
+  "closure_size": 3,
+  "flagged_count": 3,
+  "pct_dependents_reflaged": 100.0,
+  "closure_fully_flagged": true,
+  "unrelated_note_untouched": true,
+  "old_value_absent_from_read_path": true,
+  "new_value_present": true
+ },
+ "detail": {
+  "flagged": [
+   "m_179300725772200004",
+   "m_179300725772300005",
+   "m_179300725772400006"
+  ],
+  "closure": [
+   "m_179300725772200004",
+   "m_179300725772300005",
+   "m_179300725772400006"
+  ],
+  "note_status": {
+   "m_179300725772200004": "stale",
+   "m_179300725772300005": "stale",
+   "m_179300725772400006": "stale",
+   "m_179300725772500007": "active"
+  },
+  "correction_id": "m_179300725772700009",
+  "successor_id": "m_179300725773000010"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "experiment": "exp3_cost",
+ "version": "v2 (RAG baseline + accuracy, 2026-10-26 audit)",
+ "frozen": "2026-10-26",
+ "headline": {
+  "matched_answer_capability_full_vs_selective": true,
+  "rag_topk_accuracy": 1.0,
+  "savings_vs_full_by_N": {
+   "50": 98.13,
+   "200": 99.51,
+   "1000": 99.9
+  },
+  "savings_vs_rag_by_N": {
+   "50": 90.11,
+   "200": 90.11,
+   "1000": 90.11
+  },
+  "tokens_by_N": {
+   "50": {
+    "full": 481,
+    "rag_topk": 91,
+    "selective": 9
+   },
+   "200": {
+    "full": 1831,
+    "rag_topk": 91,
+    "selective": 9
+   },
+   "1000": {
+    "full": 9031,
+    "rag_topk": 91,
+    "selective": 9
+   }
+  }
+ },
+ "runs": [
+  {
+   "N": 50,
+   "full_tokens": 481,
+   "rag_topk_tokens": 91,
+   "selective_tokens": 9,
+   "accuracy": {
+    "full": true,
+    "rag_topk": true,
+    "selective": true
+   },
+   "savings_vs_full_pct": 98.13,
+   "savings_vs_rag_pct": 90.11,
+   "note": "rag arm: top-8 lexical overlap vs 6 distractors"
+  },
+  {
+   "N": 200,
+   "full_tokens": 1831,
+   "rag_topk_tokens": 91,
+   "selective_tokens": 9,
+   "accuracy": {
+    "full": true,
+    "rag_topk": true,
+    "selective": true
+   },
+   "savings_vs_full_pct": 99.51,
+   "savings_vs_rag_pct": 90.11,
+   "note": "rag arm: top-8 lexical overlap vs 6 distractors"
+  },
+  {
+   "N": 1000,
+   "full_tokens": 9031,
+   "rag_topk_tokens": 91,
+   "selective_tokens": 9,
+   "accuracy": {
+    "full": true,
+    "rag_topk": true,
+    "selective": true
+   },
+   "savings_vs_full_pct": 99.9,
+   "savings_vs_rag_pct": 90.11,
+   "note": "rag arm: top-8 lexical overlap vs 6 distractors"
+  }
+ ],
+ "protocol": "token estimate = regex \\w+|punct; accuracy gate = required fact present; comparisons vs full-history count only at matched accuracy; the RAG arm is a naive lexical top-k baseline (small, frozen), not a tuned retriever"
+}
